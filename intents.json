@@ -47,15 +47,35 @@
       ]
     },
     {
-      "tag": "goodbye",
+      "tag": "morning greeting",
       "patterns": [
-        "Goodbye",
-        "See you next time",
-        "Bye"
+        "Good Morning",
+        "Morning"
       ],
       "responses": [
-        "Take care",
-        "Goodbye"
+        "Good Morning",
+        "Morning to you too"
+      ]
+    },
+    {
+      "tag": "afternoon greeting",
+      "patterns": [
+        "Good Afternoon",
+        "Afternoon"
+      ],
+      "responses": [
+        "Good Afternoon"
+      ]
+    },
+    {
+      "tag": "sleeping exchange",
+      "patterns": [
+        "Good Night",
+        "Night"
+      ],
+      "responses": [
+        "Good Night",
+        "Have a good night sleep"
       ]
     },
     {
