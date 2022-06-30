@@ -27,7 +27,7 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much", " Really appreciate your help" ],
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much", " Really appreciate your help"],
       "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome", "I'm glad that I can be of service"]
     },
     {
