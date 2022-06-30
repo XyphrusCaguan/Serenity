@@ -5,21 +5,30 @@
       "patterns": [
         "Hi",
         "Hey",
-        "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "It's been a while",
+        "Yo",
+        "Sup",
+        "Heya",
+        "Howdy!",
+        "Eyy"
       ],
       "responses": [
         "Hello",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help you?",
+        "Hello there, is there anything I can do for you?",
+        "Hi, what brings you in today?",
+        "Greetings, what can I do for you?",
+        "Greetings, is there anything that I can help?"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much", " Really appreciate your help" ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome", "I'm glad that I can be of service"]
     },
     {
       "tag": "name",
