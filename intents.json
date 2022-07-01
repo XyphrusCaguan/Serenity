@@ -119,7 +119,7 @@
         "I'm a victim of bullying, what to do?",
         "I'm not feeling good because someone is bullying me",
         "Do you have any advice on how to stop bullying?",
-        "I can't take it anymore1",
+        "I can't take it anymore",
         "Someone is bullying me"
       ],
       "responses": [
@@ -131,6 +131,19 @@
         "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
         "Be a friend - listen, support and speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
         "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
+      ]
+    },
+    {
+      "tag": "argument",
+      "patterns": [
+        "I had an argument",
+        "What should I do if me and my friend had an argument?",
+        "I got into an arguement with someone"
+      ],
+      "responses": [
+        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
+        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
+        "Cool off for the time being to avoid further conflicts."
       ]
     }
   ]
