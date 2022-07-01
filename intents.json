@@ -116,7 +116,10 @@
       "tag": "bully",
       "patterns": [
         "I am being bullied, what should I do?",
-        "I'm a victim of bullying, what to do?"
+        "I'm a victim of bullying, what to do?",
+        "I'm not feeling good because someone is bullying me",
+        "Do you have any advice on how to stop bullying?",
+        "I can't take it anymore to be bullied by someone!"
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -127,12 +130,6 @@
         "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
         "Be a friend - listen, support and speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
         "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
-      ]
-    },
-    {
-      "tag": "abuse",
-      "patterns": [
-        ""
       ]
     }
   ]
