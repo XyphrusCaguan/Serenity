@@ -180,7 +180,8 @@
       "tag": "anxiety",
       "patterns": [
         "I'm feeling anxious",
-        "I feel like people are looking at me"
+        "I feel like people are looking at me",
+        "I'm scared"
       ],
       "responses": [
         ""
