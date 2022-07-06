@@ -186,6 +186,14 @@
       "responses": [
         ""
       ]
+    },
+    {
+      "tag": "?",
+      "patterns": [
+        ],
+      "responses": [
+        ""
+      ]
     }
   ]
 }
