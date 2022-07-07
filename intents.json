@@ -201,6 +201,7 @@
     {
       "tag": "depressed",
       "patterns": [
+        "I'm feeling depressed",
         "I feel empty",
         "I feel numb",
         "Nothing makes sense",
