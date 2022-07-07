@@ -199,9 +199,19 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "depressed",
       "patterns": [
-        ""
+        "I feel empty",
+        "I feel numb",
+        "Nothing makes sense",
+        "I'm feeling hopeless",
+        "Everything is insignificant",
+        "I can’t get out of bed",
+        "I can’t feel better",
+        "I can’t get things to be good",
+        "I’m so tired of dealing with this",
+        "I have no appetite",
+        "I can't get to clean my room",
       ],
       "responses": [
         ""
