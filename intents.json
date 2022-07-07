@@ -166,7 +166,8 @@
         "No one needs me",
         "I have let myself people down",
         "It's better to be gone for good",
-        "I'm losing hope"
+        "I'm losing hope",
+        "Am I useless?"
       ],
       "responses": [
         "It's best to seek for help whom you are comfortable with as soon as possible.",
@@ -181,7 +182,10 @@
       "patterns": [
         "I'm feeling anxious",
         "I feel like people are looking at me",
-        "I'm scared"
+        "I'm scared",
+        "I'm afraid that something might happen to me",
+        "I can't stop worrying",
+        ""
       ],
       "responses": [
         ""
