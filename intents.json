@@ -61,7 +61,8 @@
         "I can't sleep",
         "Staying up all night is fine",
         "I'm not sleeping",
-        "Do you sleep?"
+        "I think I have insomnia",
+        ""
       ],
       "responses": [
         "Sleeping is essential to a healthier lifestyle",
@@ -185,6 +186,21 @@
         "I'm scared",
         "I'm afraid that something might happen to me",
         "I can't stop worrying",
+        "My mind is racing",
+        "I'm exhausted",
+        "I feel hot"
+        "I'm sweating a little",
+        "I can't clear out my mind",
+        "I can't focus today",
+        "I can't function properly"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
         ""
       ],
       "responses": [
