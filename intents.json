@@ -8,21 +8,37 @@
         "Is anyone there?",
         "Hello",
         "Good day",
-        "It's been a while",
-        "Yo",
-        "Sup",
-        "Heya",
-        "Howdy!",
-        "Eyy"
+        "It's been a while"
       ],
       "responses": [
         "Hello",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help you?",
-        "Hello there, is there anything I can do for you?",
-        "Hi, what brings you in today?",
-        "Greetings, what can I do for you?",
-        "Greetings, is there anything that I can help?"
+        "Hi there. What can I do for you?",
+        "Hi there. How can I help you?",
+        "Hello there. Is there anything I can do for you?",
+        "Hi. What brings you in today?",
+        "Greetings! What can I do for you?",
+        "Greetings! Is there anything that I can help?"
+      ]
+    },
+    {
+      "tag": "morning greeting",
+      "patterns": [
+        "Good Morning",
+        "Morning"
+      ],
+      "responses": [
+        "Good Morning",
+        "Morning to you too"
+      ]
+    },
+    {
+      "tag": "afternoon greeting",
+      "patterns": [
+        "Good Afternoon",
+        "Afternoon"
+      ],
+      "responses": [
+        "Good Afternoon"
       ]
     },
     {
@@ -61,33 +77,11 @@
         "I can't sleep",
         "Staying up all night is fine",
         "I'm not sleeping",
-        "I think I have insomnia",
-        ""
+        "I think I have insomnia"
       ],
       "responses": [
         "Sleeping is essential to a healthier lifestyle",
         "You need to sleep to have a better productivity in your daily activities"
-      ]
-    },
-    {
-      "tag": "morning greeting",
-      "patterns": [
-        "Good Morning",
-        "Morning"
-      ],
-      "responses": [
-        "Good Morning",
-        "Morning to you too"
-      ]
-    },
-    {
-      "tag": "afternoon greeting",
-      "patterns": [
-        "Good Afternoon",
-        "Afternoon"
-      ],
-      "responses": [
-        "Good Afternoon"
       ]
     },
     {
@@ -114,36 +108,55 @@
       ]
     },
     {
-      "tag": "bully",
+      "tag": "bully 1.0",
       "patterns": [
-        "I am being bullied, what should I do?",
-        "I'm a victim of bullying, what to do?",
+        "I am being bullied. What should I do?",
+        "I'm a victim of bullying. What to do?",
+        "Do you have any advice on how to stop bullying?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "bully 1.1",
+      "patterns": [
         "I'm not feeling good because someone is bullying me",
-        "Do you have any advice on how to stop bullying?",
         "I can't take being bullied anymore",
         "Someone is bullying me"
       ],
       "responses": [
-        "You might want to talk about it to your parents or your teacher as soon as possible.",
-        "Seek counseling, especially to someone you trust the most.",
-        "Be strong inside and don't fight back because things will make worst if you fight back.",
-        "If you feel unsafe, always find help.",
-        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
-        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
-        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
+        ""
       ]
     },
     {
-      "tag": "argue",
+      "tag": "cyberbullying",
+      "patterns": [
+        "Someone is harassing me through the internet",
+        "I've been receiving online threats",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "argue 1.0",
+      "patterns": [
+        "What should I do if me and my friend had an argument?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "argue 1.1",
       "patterns": [
         "I had an argument",
-        "What should I do if me and my friend had an argument?",
         "I got into an arguement with someone"
       ],
       "responses": [
-        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
-        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
-        "Cool off for the time being to avoid further conflicts."
+        ""
       ]
     },
     {
@@ -154,10 +167,10 @@
         "I'm having suicidal thoughts",
         "I want to kill myself",
         "I want to be gone forever",
-        "I don't think I can do this, my life is not worth it",
+        "I don't think I can do this. My life is not worth it",
         "I'm not good enough",
         "There's no point in living",
-        "I'm weak, I can't bear this pain",
+        "I'm weak. I can't bear this pain",
         "Nobody cares about me",
         "If I die, it's the best for everyone",
         "I have lost everything",
@@ -168,14 +181,10 @@
         "I have let myself people down",
         "It's better to be gone for good",
         "I'm losing hope",
-        "Am I useless?"
+        "I'm useless"
       ],
       "responses": [
-        "It's best to seek for help whom you are comfortable with as soon as possible.",
-        "I encourage you to contact National Center for Mental Health Crisis Hotline.",
-        "You should reach out someone to whom you really trust so that they may help you with your problem.",
-        "Text or call someone whom you really rely on and talk about what you really feel.",
-        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you."
+        ""
       ]
     },
     {
