@@ -133,8 +133,9 @@
       "tag": "cyberbullying",
       "patterns": [
         "Someone is harassing me through the internet",
-        "I've been receiving online threats",
-        ""
+        "I'm receiving hate comments on the internet",
+        "I hate it when someone is gossiping about me",
+        "People are being rude to me in social media"
       ],
       "responses": [
         ""
