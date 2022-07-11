@@ -130,12 +130,28 @@
       ]
     },
     {
-      "tag": "cyberbullying",
+      "tag": "cyberbullying 1.0",
       "patterns": [
         "Someone is harassing me through the internet",
         "I'm receiving hate comments on the internet",
         "I hate it when someone is gossiping about me",
-        "People are being rude to me in social media"
+        "People are being rude to me in social media",
+        "Someone insulted me in their post",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "cyberbullying 1.1",
+      "patterns": [
+        "Someone is harassing me through the internet",
+        "I'm receiving hate comments on the internet",
+        "I hate it when someone is gossiping about me",
+        "People are being rude to me in social media",
+        "Someone insulted me in their post",
+        ""
       ],
       "responses": [
         ""
