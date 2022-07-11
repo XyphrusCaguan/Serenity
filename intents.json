@@ -194,7 +194,7 @@
     {
       "tag": "argue 1.0",
       "patterns": [
-        "What should I do if me and my friend had an argument?"
+        "What should I do if me and my friend/lover/parent/sibling had an argument?"
       ],
       "responses": [
         ""
@@ -207,7 +207,23 @@
         "I got into an arguement with someone"
       ],
       "responses": [
-        ""
+        "Why is that?",
+        "What is the reason he/she does that?",
+        "What's the cause of it?",
+        "What happened?"
+      ]
+    },
+    {
+      "tag": "argue 1.2",
+      "patterns": [
+        "I had an argument",
+        "I got into an arguement with someone"
+      ],
+      "responses": [
+        "Why is that?",
+        "What is the reason he/she does that?",
+        "What's the cause of it?",
+        "What happened?"
       ]
     },
     {
