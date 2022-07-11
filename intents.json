@@ -128,10 +128,33 @@
       "patterns": [
         "I'm not feeling good because someone is bullying me",
         "I can't take being bullied anymore",
-        "Someone is bullying me"
+        "Someone is bullying me",
+        "I hate it when someone is bullying me"
       ],
       "responses": [
-        ""
+        "Why does he/she bullies you?",
+        "What is the reason he/she bullies you?",
+        "What's the cause of it?",
+        "What happened?"
+      ]
+    },
+    {
+      "tag": "bully 1.2",
+      "patterns": [
+        "He/she bullies me because..",
+        "The reason why he/she bullies me because..",
+        "He/she suddenly..",
+        "Out of nowhere he/she..",
+        "Suddenly he/she...",
+        "It's because of.."
+      ],
+      "responses": [
+         "You might want to talk about it to your parents or your teacher as soon as possible.",
+        "Seek counseling, especially to someone you trust the most.",
+        "If you feel unsafe, always find help.",
+        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
+        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
+        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
       ]
     },
     {
@@ -145,17 +168,15 @@
         ""
       ],
       "responses": [
-        ""
+        "Why is that?",
+        "What is the reason he/she does that?",
+        "What's the cause of it?",
+        "What happened?"
       ]
     },
     {
       "tag": "cyberbullying 1.1",
       "patterns": [
-        "Someone is harassing me through the internet",
-        "I'm receiving hate comments on the internet",
-        "I hate it when someone is gossiping about me",
-        "People are being rude to me in social media",
-        "Someone insulted me in their post",
         ""
       ],
       "responses": [
