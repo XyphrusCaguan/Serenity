@@ -160,8 +160,8 @@
     {
       "tag": "cyberbullying 1.0",
       "patterns": [
-        "Someone is harassing me through the internet",
-        "I'm receiving hate comments on the internet",
+        "Someone is harassing me through the Internet",
+        "I'm receiving hate comments on the Internet",
         "I hate it when someone is gossiping about me",
         "People are being rude to me in social media",
         "Someone insulted me in their post",
@@ -177,13 +177,11 @@
     {
       "tag": "cyberbullying 1.1",
       "patterns": [
-        "He/she does that to me because..",
-        "The reason why he/she does that is because",
-        "He/she suddenly",
-        "Out of nowhere he/she",
-        "Suddenly he/she",
-        "It's because of",
-        "First he/she"
+        "He/she does that to me because he/she wants to make fun of me",
+        "The reason why he/she does that is because he/she hates me so bad",
+        "He/she suddenly mention about",
+        "Out of nowhere he/she posted a bad comment about me",
+        "It's because of jealousy"
       ],
       "responses": [
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
