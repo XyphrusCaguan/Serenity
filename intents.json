@@ -141,12 +141,13 @@
     {
       "tag": "bully 1.2",
       "patterns": [
-        "He/she bullies me because..",
-        "The reason why he/she bullies me because..",
+        "He/she does that to me because..",
+        "The reason why he/she does that is because..",
         "He/she suddenly..",
         "Out of nowhere he/she..",
         "Suddenly he/she...",
-        "It's because of.."
+        "It's because of...",
+        "First he/she..."
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -182,11 +183,26 @@
         "He/she suddenly..",
         "Out of nowhere he/she..",
         "Suddenly he/she...",
-        "It's because of.."
+        "It's because of...",
+        "First he/she..."
       ],
       "responses": [
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
-        "You might wanna take screenshots of harassment of what they did to you and report it.",
+        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
+        "Talk to someone that you want to share with your problem.",
+        "Report bullying where it happens."
+      ]
+    },
+    {
+      "tag": "cyberbullying 1.2",
+      "patterns": [
+        "If someone is harassing me throught the Internet what should I do?",
+        "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
+        "Someone is spreading gossip or rumors about me. What should I do?"
+      ],
+      "responses": [
+        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
+        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
         "Talk to someone that you want to share with your problem.",
         "Report bullying where it happens."
       ]
@@ -194,21 +210,27 @@
     {
       "tag": "argue 1.0",
       "patterns": [
-        "What should I do if me and my friend/lover/parent/sibling had an argument?"
+        "What should I do if I had an argument with someone?",
+        ""
       ],
       "responses": [
-        ""
+        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
+        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
+        "Cool off for the time being to avoid further conflicts."
       ]
     },
     {
       "tag": "argue 1.1",
       "patterns": [
         "I had an argument",
-        "I got into an arguement with someone"
+        "I got into an argument with someone",
+        "Me and ... had an argument",
+        "He/she argues with me",
+        ""
       ],
       "responses": [
-        "Why is that?",
-        "What is the reason he/she does that?",
+        "Why did you have an argument?",
+        "What is the reason that you had an argument with him/her?",
         "What's the cause of it?",
         "What happened?"
       ]
@@ -216,14 +238,16 @@
     {
       "tag": "argue 1.2",
       "patterns": [
-        "I had an argument",
-        "I got into an arguement with someone"
+        "He/she does that to me because..",
+        "The reason why he/she does that is because..",
+        "He/she suddenly..",
+        "Out of nowhere he/she..",
+        "Suddenly he/she...",
+        "It's because of...",
+        "First he/she..."
       ],
       "responses": [
-        "Why is that?",
-        "What is the reason he/she does that?",
-        "What's the cause of it?",
-        "What happened?"
+        ""
       ]
     },
     {
