@@ -211,12 +211,14 @@
       "tag": "argue 1.0",
       "patterns": [
         "What should I do if I had an argument with someone?",
-        ""
+        "I can't control my anger issues, what do I do?"
       ],
       "responses": [
         "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
         "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
-        "Cool off for the time being to avoid further conflicts."
+        "Cool off for the time being to avoid further conflicts.",
+        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
       ]
     },
     {
@@ -225,8 +227,7 @@
         "I had an argument",
         "I got into an argument with someone",
         "Me and ... had an argument",
-        "He/she argues with me",
-        ""
+        "He/she argues with me"
       ],
       "responses": [
         "Why did you have an argument?",
@@ -247,11 +248,15 @@
         "First he/she..."
       ],
       "responses": [
-        ""
+        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
+        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
+        "Cool off for the time being to avoid further conflicts.",
+        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
       ]
     },
     {
-      "tag": "suicide",
+      "tag": "suicide 1.0",
       "patterns": [
         "I want to die",
         "I'm considering suicide",
@@ -275,6 +280,19 @@
         "I'm useless"
       ],
       "responses": [
+        "Can you share it to me why are you feeling this way?",
+        "Is there anything I can do for you?",
+        "Why is that?",
+        "Tell me why are you feeling this way.",
+        ""
+      ]
+    },
+    {
+      "tag": "suicide 1.1",
+      "patterns": [
+        ""
+      ],
+      "responses": [
         ""
       ]
     },
@@ -293,6 +311,15 @@
         "I can't clear out my mind",
         "I can't focus today",
         "I can't function properly"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        ""
       ],
       "responses": [
         ""
