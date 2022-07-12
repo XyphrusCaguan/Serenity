@@ -141,13 +141,13 @@
     {
       "tag": "bully 1.2",
       "patterns": [
-        "He/she bullies me because..",
-        "The reason why he/she bullies me because..",
-        "He/she suddenly bullies..",
-        "Out of nowhere he/she bullies..",
-        "Suddenly he/she...",
-        "It's because of...",
-        "First he/she..."
+        "He/she bullies me because",
+        "The reason why he/she bullies me because",
+        "He/she suddenly bullies",
+        "Out of nowhere he/she bullies",
+        "Suddenly he/she",
+        "It's because of",
+        "First he/she"
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -179,12 +179,12 @@
       "tag": "cyberbullying 1.1",
       "patterns": [
         "He/she does that to me because..",
-        "The reason why he/she does that is because..",
-        "He/she suddenly..",
-        "Out of nowhere he/she..",
-        "Suddenly he/she...",
-        "It's because of...",
-        "First he/she..."
+        "The reason why he/she does that is because",
+        "He/she suddenly",
+        "Out of nowhere he/she",
+        "Suddenly he/she",
+        "It's because of",
+        "First he/she"
       ],
       "responses": [
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
@@ -218,7 +218,7 @@
         "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
         "Cool off for the time being to avoid further conflicts.",
         "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
-        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
       ]
     },
     {
@@ -226,7 +226,7 @@
       "patterns": [
         "I had an argument",
         "I got into an argument with someone",
-        "Me and ... had an argument",
+        "Me and my had an argument",
         "He/she argues with me"
       ],
       "responses": [
@@ -239,20 +239,20 @@
     {
       "tag": "argue 1.2",
       "patterns": [
-        "He/she argues because..",
-        "The reason why he/she argues with me because..",
-        "He/she suddenly argues..",
-        "Out of nowhere he/she argues..",
-        "Suddenly he/she argues...",
-        "It's because of...",
-        "First he/she..."
+        "He/she argues because",
+        "The reason why he/she argues with me because",
+        "He/she suddenly argues",
+        "Out of nowhere he/she argues",
+        "Suddenly he/she argues",
+        "It's because of",
+        "First he/she"
       ],
       "responses": [
         "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
         "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
         "Cool off for the time being to avoid further conflicts.",
         "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
-        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
       ]
     },
     {
@@ -291,10 +291,11 @@
     {
       "tag": "suicide 1.1",
       "patterns": [
-        "I feel this way because...",
-        "I don't even know...",
-        "I've been through a lot...",
-        "I don't even understand anymore of myself...",
+        "I feel this way because",
+        "I don't even know",
+        "I've been through a lot",
+        "I don't even understand anymore of myself",
+        "I'm having a hard time",
         ""
       ],
       "responses": [
@@ -329,9 +330,9 @@
     {
       "tag": "anxiety 1.1",
       "patterns": [
-        "I feel anxious because...",
-        "I feel afraid because...",
-        "There are a lot of things I've been thinking of...",
+        "I feel anxious because",
+        "I feel afraid because",
+        "There are a lot of things I've been thinking of",
         "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
