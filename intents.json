@@ -141,10 +141,10 @@
     {
       "tag": "bully 1.2",
       "patterns": [
-        "He/she does that to me because..",
-        "The reason why he/she does that is because..",
-        "He/she suddenly..",
-        "Out of nowhere he/she..",
+        "He/she bullies me because..",
+        "The reason why he/she bullies me because..",
+        "He/she suddenly bullies..",
+        "Out of nowhere he/she bullies..",
         "Suddenly he/she...",
         "It's because of...",
         "First he/she..."
@@ -239,11 +239,11 @@
     {
       "tag": "argue 1.2",
       "patterns": [
-        "He/she does that to me because..",
-        "The reason why he/she does that is because..",
-        "He/she suddenly..",
-        "Out of nowhere he/she..",
-        "Suddenly he/she...",
+        "He/she argues because..",
+        "The reason why he/she argues with me because..",
+        "He/she suddenly argues..",
+        "Out of nowhere he/she argues..",
+        "Suddenly he/she argues...",
         "It's because of...",
         "First he/she..."
       ],
@@ -280,24 +280,29 @@
         "I'm useless"
       ],
       "responses": [
-        "Can you share it to me why are you feeling this way?",
+        "Care to share why are you feeling this way?",
         "Is there anything I can do for you?",
         "Why is that?",
-        "Tell me why are you feeling this way.",
-        ""
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Is there anything I can hep you?"
       ]
     },
     {
       "tag": "suicide 1.1",
       "patterns": [
+        "I feel this way because...",
+        "I don't even know...",
+        "I've been through a lot...",
+        "I don't even understand anymore of myself...",
         ""
       ],
       "responses": [
-        ""
+        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you."
       ]
     },
     {
-      "tag": "anxiety",
+      "tag": "anxiety 1.0",
       "patterns": [
         "I'm feeling anxious",
         "I feel like people are looking at me",
@@ -313,11 +318,16 @@
         "I can't function properly"
       ],
       "responses": [
-        ""
+        "Care to share why are you feeling this way?",
+        "Is there anything I can do for you?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Is there anything I can hep you?"
       ]
     },
     {
-      "tag": "anxiety",
+      "tag": "anxiety 1.1",
       "patterns": [
         ""
       ],
