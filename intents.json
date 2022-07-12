@@ -323,15 +323,19 @@
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can hep you?"
+        "Are you okay? Is there anything I can help you?"
       ]
     },
     {
       "tag": "anxiety 1.1",
       "patterns": [
-        ""
+        "I feel anxious because...",
+        "I feel afraid because...",
+        "There are a lot of things I've been thinking of...",
+        "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
+        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
         ""
       ]
     },
