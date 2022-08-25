@@ -117,7 +117,7 @@
         "I can't take being bullied anymore.",
         "Someone is bullying me.",
         "I hate it when someone is bullying me.",
-        "Out of nowhere he/she bullies me."
+        "Out of nowhere he/she is bullying me."
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -190,7 +190,17 @@
         "I have let myself people down",
         "It's better to be gone for good",
         "I'm losing hope",
-        "I'm useless"
+        "I'm useless",
+        "I don't see any hope at all",
+        "I want to give up my life",
+        "I'm doomed",
+        "Nobody loves me",
+        "I hate myself",
+        "There's hope for me",
+        "I screwed my life",
+        "I'm not worthy enough",
+        "My life is a mess",
+        ""
       ],
       "responses": [
         "Care to share why are you feeling this way?",
@@ -207,13 +217,18 @@
         "I feel this way because I think no one cares for me anymore",
         "I don't even know",
         "I've been through a lot",
-        "I don't even understand anymore of myself",
+        "I don't even understand myself anymore",
         "I'm having a hard time",
+        "I just want to say all my feelings here since no one is willing to listen to me",
+        "I don't want to think anymore of this",
+        "I don't know what to say",
         ""
       ],
       "responses": [
         "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you.",
-        "I'm here for you. You're not alone."
+        "I'm here for you. You're not alone. We can get through this together.",
+        "I may not know what you really feel right now or may not know what is your situation but I assure you that there will be someone who will understand you.",
+        ""
       ]
     },
     {
@@ -247,14 +262,17 @@
       "tag": "anxiety1.1",
       "patterns": [
         "I feel anxious because I think I'm gonna fail in life",
+        "I'm scared because I don't know what will happen to me",
         "I feel afraid because I might disappoint them",
         "There are a lot of things I've been thinking of",
         "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
         "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
-        "It's perfectly okay to not be okay. I suggest you might wanna take things ",
-        ""
+        "It's perfectly okay to not be okay. I suggest you might wanna take mind off of things",
+        "Be gentle with yourself.",
+        "It's fine to take breaks.",
+        "I know this is tough for you but we'll get through it together."
       ]
     },
     {
