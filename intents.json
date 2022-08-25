@@ -108,11 +108,16 @@
       ]
     },
     {
-      "tag": "bully 1.0",
+      "tag": "bully",
       "patterns": [
-        "I am being bullied. What should I do?",
-        "I'm a victim of bullying. What to do?",
-        "Do you have any advice on how to stop bullying?"
+        "I am being bullied.",
+        "I'm a victim of bullying.",
+        "Do you have any advice on how to stop bullying?",
+        "How to stop bullying?",
+        "I can't take being bullied anymore.",
+        "Someone is bullying me.",
+        "I hate it when someone is bullying me.",
+        "Out of nowhere he/she bullies me."
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -124,127 +129,38 @@
       ]
     },
     {
-      "tag": "bully 1.1",
-      "patterns": [
-        "I'm not feeling good because someone is bullying me",
-        "I can't take being bullied anymore",
-        "Someone is bullying me",
-        "I hate it when someone is bullying me"
-      ],
-      "responses": [
-        "Why does he/she bullies you?",
-        "What is the reason he/she bullies you?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "bully 1.2",
-      "patterns": [
-        "He/she bullies me because of my appearance that they want to tease me all the time",
-        "The reason why he/she bullies me because I am powerless",
-        "He/she suddenly bullies me",
-        "Out of nowhere he/she bullies me",
-        "It's because of teasing",
-        "First he/she started to slap/smack me"
-      ],
-      "responses": [
-        "You might want to talk about it to your parents or your teacher as soon as possible.",
-        "Seek counseling, especially to someone you trust the most.",
-        "If you feel unsafe, always find help.",
-        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
-        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
-        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
-      ]
-    },
-    {
-      "tag": "cyberbullying 1.0",
+      "tag": "cyberbully",
       "patterns": [
         "Someone is harassing me through the Internet",
         "I'm receiving hate comments on the Internet",
         "I hate it when someone is gossiping about me",
         "People are being rude to me in social media",
         "Someone insulted me in their post",
+        "Out of nowhere he/she posted a bad comment about me",
+        "If someone is harassing me throught the Internet what should I do?",
+        "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
+        "Someone is spreading gossip or rumors about me. What should I do?",
         ""
       ],
       "responses": [
-        "Why is that?",
-        "What is the reason he/she does that?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "cyberbullying 1.1",
-      "patterns": [
-        "He/she does that to me because he/she wants to make fun of me",
-        "The reason why he/she does that is because he/she hates me so bad",
-        "He/she suddenly mention about",
-        "Out of nowhere he/she posted a bad comment about me",
-        "It's because of jealousy"
-      ],
-      "responses": [
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
         "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
         "Talk to someone that you want to share with your problem.",
-        "Report bullying where it happens."
+        "Report bullying where it happens.",
+        "Reach out for help especially if the behavior's really getting to you.",
+        "I encourage you to limit your use of Internet or social media in order to avoid further conflict."
       ]
     },
     {
-      "tag": "cyberbullying 1.2",
-      "patterns": [
-        "If someone is harassing me throught the Internet what should I do?",
-        "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
-        "Someone is spreading gossip or rumors about me. What should I do?"
-      ],
-      "responses": [
-        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
-        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
-        "Talk to someone that you want to share with your problem.",
-        "Report bullying where it happens."
-      ]
-    },
-    {
-      "tag": "argue 1.0",
+      "tag": "argue",
       "patterns": [
         "What should I do if I had an argument with someone?",
-        "I can't control my anger issues, what do I do?"
-      ],
-      "responses": [
-        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
-        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
-        "Cool off for the time being to avoid further conflicts.",
-        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
-        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
-      ]
-    },
-    {
-      "tag": "argue 1.1",
-      "patterns": [
         "I had an argument",
         "I got into an argument with someone",
-        "Me and my had an argument",
+        "Me and my friend had an argument",
         "He/she argues with me"
       ],
       "responses": [
-        "Why did you have an argument?",
-        "What is the reason that you had an argument with him/her?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "argue 1.2",
-      "patterns": [
-        "He/she argues because",
-        "The reason why he/she argues with me because",
-        "He/she suddenly argues",
-        "Out of nowhere he/she argues",
-        "Suddenly he/she argues",
-        "It's because of",
-        "First he/she"
-      ],
-      "responses": [
         "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
         "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
         "Cool off for the time being to avoid further conflicts.",
@@ -253,7 +169,7 @@
       ]
     },
     {
-      "tag": "suicide 1.0",
+      "tag": "suicide",
       "patterns": [
         "I want to die",
         "I'm considering suicide",
@@ -282,13 +198,13 @@
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can hep you?"
+        "Are you okay? Is there anything I can help you?"
       ]
     },
     {
-      "tag": "suicide 1.1",
+      "tag": "suicide1.1",
       "patterns": [
-        "I feel this way because",
+        "I feel this way because I think no one cares for me anymore",
         "I don't even know",
         "I've been through a lot",
         "I don't even understand anymore of myself",
@@ -296,11 +212,12 @@
         ""
       ],
       "responses": [
-        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you."
+        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you.",
+        "I'm here for you. You're not alone."
       ]
     },
     {
-      "tag": "anxiety 1.0",
+      "tag": "anxiety",
       "patterns": [
         "I'm feeling anxious",
         "I feel like people are looking at me",
@@ -321,19 +238,22 @@
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can help you?"
+        "Are you okay? Is there anything I can help you?",
+        "I'm here for you. You're not alone.",
+        "Do you want to do something to take mind off of things?"
       ]
     },
     {
-      "tag": "anxiety 1.1",
+      "tag": "anxiety1.1",
       "patterns": [
-        "I feel anxious because",
-        "I feel afraid because",
+        "I feel anxious because I think I'm gonna fail in life",
+        "I feel afraid because I might disappoint them",
         "There are a lot of things I've been thinking of",
         "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
         "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
+        "It's perfectly okay to not be okay. I suggest you might wanna take things ",
         ""
       ]
     },
