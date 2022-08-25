@@ -200,7 +200,7 @@
         "I screwed my life",
         "I'm not worthy enough",
         "My life is a mess",
-        ""
+        "Everything falling apart"
       ],
       "responses": [
         "Care to share why are you feeling this way?",
@@ -222,13 +222,19 @@
         "I just want to say all my feelings here since no one is willing to listen to me",
         "I don't want to think anymore of this",
         "I don't know what to say",
-        ""
+        "I have no purpose in life"
       ],
       "responses": [
         "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you.",
         "I'm here for you. You're not alone. We can get through this together.",
-        "I may not know what you really feel right now or may not know what is your situation but I assure you that there will be someone who will understand you.",
-        ""
+        "I may not know what you really feel right now or may not know what is your situation but I assure you that there will be someone who will understand your situation.",
+        "Be strong, there always a hope.",
+        "When you're contemplating how far you can go, consider how far you've already come. Remember everything you've faced, every struggle you've won, and every fear you've overcome.",
+        "Have faith in yourself that you can get through this obstacles.",
+        "You're not a failure, just remember that everyone of us has a great purpose in life and our exsience is a treasure.",
+        "Stay strong, you can conquer the adversity of your life.",
+        "Maintain your fortitude. Stay true to yourself and to who you are because there will be someone who believes in you. You are wanted and loved and there are places in the worls where you will be safe and supported.",
+        "Even though you lose hope to yourself, there wil be a someone that always love and accept you."
       ]
     },
     {
@@ -245,7 +251,11 @@
         "I'm sweating a little",
         "I can't clear out my mind",
         "I can't focus today",
-        "I can't function properly"
+        "I can't function properly",
+        "I feel scared",
+        "I feel anxious",
+        "I feel pressured",
+        "I'm nervous"
       ],
       "responses": [
         "Care to share why are you feeling this way?",
@@ -254,8 +264,7 @@
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
         "Are you okay? Is there anything I can help you?",
-        "I'm here for you. You're not alone.",
-        "Do you want to do something to take mind off of things?"
+        "I'm here for you. You're not alone."
       ]
     },
     {
@@ -272,7 +281,26 @@
         "It's perfectly okay to not be okay. I suggest you might wanna take mind off of things",
         "Be gentle with yourself.",
         "It's fine to take breaks.",
-        "I know this is tough for you but we'll get through it together."
+        "I know this is tough for you but we'll get through it together.",
+        "Dont feel anxious to others, each one of us is compose of unique talents and abilities."
+      ]
+    },
+    {
+      "tag": "anxiety1.2",
+      "patterns": [
+        "I feel anxious because I think I'm gonna fail in life",
+        "I'm scared because I don't know what will happen to me",
+        "I feel afraid because I might disappoint them",
+        "There are a lot of things I've been thinking of",
+        "My heart feels heavy, I don't know what to do"
+      ],
+      "responses": [
+        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
+        "It's perfectly okay to not be okay. I suggest you might wanna take mind off of things",
+        "Be gentle with yourself.",
+        "It's fine to take breaks.",
+        "I know this is tough for you but we'll get through it together.",
+        "Dont feel anxious to others, each one of us is compose of unique talents and abilities."
       ]
     },
     {
