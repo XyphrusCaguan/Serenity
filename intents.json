@@ -75,13 +75,18 @@
       "tag": "sleep",
       "patterns": [
         "I can't sleep",
-        "Staying up all night is fine",
-        "I'm not sleeping",
-        "I think I have insomnia"
+        "I'm not sleeping enough",
+        "I think I have insomnia",
+        "I had trouble sleeping at night",
+        ""
       ],
       "responses": [
-        "Sleeping is essential to a healthier lifestyle",
-        "You need to sleep to have a better productivity in your daily activities"
+        "Sleeping is essential to a healthier lifestyle.",
+        "You need to sleep to have a better productivity in your daily activities.",
+        "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.",
+        "If you can't sleep, try to sip some warm milk.",
+        "I suggest you try some nightime yoga.",
+        ""
       ]
     },
     {
@@ -204,11 +209,10 @@
       ],
       "responses": [
         "Care to share why are you feeling this way?",
-        "Is there anything I can do for you?",
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can help you?"
+        "Are you okay? Can you tell me what are you feeling this way?"
       ]
     },
     {
@@ -259,39 +263,35 @@
       ],
       "responses": [
         "Care to share why are you feeling this way?",
-        "Is there anything I can do for you?",
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can help you?",
-        "I'm here for you. You're not alone."
+        "Are you okay? Can you tell me what are you feeling this way?"
       ]
     },
     {
       "tag": "anxiety1.1",
       "patterns": [
-        "I feel anxious because I think I'm gonna fail in life",
-        "I'm scared because I don't know what will happen to me",
-        "I feel afraid because I might disappoint them",
+        "I feel anxious because I keep thinking about my past",
+        "I'm scared because of my trauma",
+        "I'm afraid because I keep recalling bad memories",
         "There are a lot of things I've been thinking of",
-        "My heart feels heavy, I don't know what to do"
+        "I can't overcome my phobia",
+        "It's so hard to erase this trauma of mine",
+        "I suffered a lot from my upsetting dreams and nightmares",
+        ""
       ],
       "responses": [
         "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
-        "It's perfectly okay to not be okay. I suggest you might wanna take mind off of things",
-        "Be gentle with yourself.",
-        "It's fine to take breaks.",
         "I know this is tough for you but we'll get through it together.",
-        "Dont feel anxious to others, each one of us is compose of unique talents and abilities."
+        ""
       ]
     },
     {
       "tag": "anxiety1.2",
       "patterns": [
-        "I feel anxious because I think I'm gonna fail in life",
-        "I'm scared because I don't know what will happen to me",
-        "I feel afraid because I might disappoint them",
-        "There are a lot of things I've been thinking of",
+        "I feel scared for no reason",
+        "I' feel anxious all the time",
         "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
