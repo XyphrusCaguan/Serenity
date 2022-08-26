@@ -297,11 +297,30 @@
       ]
     },
     {
-      "tag": "anxiety1.2",
+      "tag": "anxiety1.2", 
       "patterns": [
+        "I'm afraid that I might fail in my exam",
+        "I'm scared because I'm not used to join in contests",
+        "I had stage fright whenever I go in front of the audience",
+        "I can't do this, I don't want to perform in the stage",
+        "I don't know if I can get high score in my quiz",
+        "I'm not confident in myself if I can pass in my exam",
+        "I feel nervous about my score in my quiz",
         ""
       ],
       "responses": [
+        "Believe in yourself! You can do this!",
+        "Be confident. A better world may be built by realizing one's own potential and having faith in one's own capabilities.",
+        "Trust yourself more, you know more than you think.",
+        "Remember that you are braver than you believe, stronger than you seem, and brighter than you realize.",
+        "Never give up on yourself because positivity, confidence, and persistence are important in life.",
+        "Believe in yourself, don't allow anyone undermine your self-esteem.",
+        ""
+      ]
+    },
+    {
+      "tag": "anxiety1.3",
+      "patterns": [
         ""
       ]
     },
