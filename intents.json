@@ -289,6 +289,32 @@
       ]
     },
     {
+      "tag": "depressed",
+      "patterns": [
+        "I'm feeling depressed",
+        "I feel empty",
+        "I feel numb",
+        "Nothing makes sense",
+        "I'm feeling hopeless",
+        "Everything is insignificant",
+        "I can’t get out of bed",
+        "I can’t feel better",
+        "I can’t get things to be good",
+        "I’m so tired of dealing with this",
+        "I have no appetite",
+        "I can't get to clean my room",
+        "I can't help myself",
+        "I'm depressed"
+      ],
+      "responses": [
+        "Care to share why are you feeling this way?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Can you tell me what are you feeling this way?"
+      ]
+    },
+    {
       "tag": "trauma",
       "patterns": [
         "I feel anxious because I keep thinking about my past",
@@ -330,7 +356,7 @@
         "Remember that you are braver than you believe, stronger than you seem, and brighter than you realize.",
         "Never give up on yourself because positivity, confidence, and persistence are important in life.",
         "Believe in yourself, don't allow anyone undermine your self-esteem.",
-        ""
+        "Face your fears."
       ]
     },
     {
@@ -338,11 +364,11 @@
       "patterns": [
         "I'm afraid that my parents will be disappointed in me",
         "I feel nervous. My parents are surely disappointed",
-        "I'm feeling anxious because of the disappointment of my parents",
+        "I'm feeling anxious because of the disappointment from my parents",
         ""
       ],
       "responses": [
-        ""
+        "Try talking to them. If they are willing to listen, just tell them what you feel. I know that they will understand if you explain it well"
       ]
     },
     {
@@ -350,7 +376,7 @@
       "patterns": [
         "I'm having a hard time to fit in my new job and I feel anxious",
         "I feel nervous because I'm new to this job",
-        "I feel scared because I don't what kind of work or job that they will assign me.",
+        "I feel scared because I don't what kind of work or job that they will assign to me.",
         ""
       ],
       "responses": [
@@ -361,33 +387,21 @@
       ]
     },
     {
-      "tag": "depressed",
+      "tag": "financial",
       "patterns": [
-        "I'm feeling depressed",
-        "I feel empty",
-        "I feel numb",
-        "Nothing makes sense",
-        "I'm feeling hopeless",
-        "Everything is insignificant",
-        "I can’t get out of bed",
-        "I can’t feel better",
-        "I can’t get things to be good",
-        "I’m so tired of dealing with this",
-        "I have no appetite",
-        "I can't get to clean my room",
-        "I can't help myself",
-        "I'm depressed"
+        "I'm afraid that I might ran out of money",
+        "I can't stop worrying about my financial loss",
+        "I'm sad that we don't have enough money",
+        "I have credit card debt. I'm a failure at everything.",
+        "I lost my job. I'm going to be poor.",
+        ""
       ],
       "responses": [
-        "Care to share why are you feeling this way?",
-        "Why is that?",
-        "Can you tell me why are you feeling this way?",
-        "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Can you tell me what are you feeling this way?"
+        ""
       ]
     },
     {
-      "tag": "",
+      "tag": "health",
       "patterns": [
         ""
       ],
