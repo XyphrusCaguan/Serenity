@@ -259,7 +259,11 @@
         "I feel scared",
         "I feel anxious",
         "I feel pressured",
-        "I'm nervous"
+        "I'm nervous",
+        "I feel frightened",
+        "I feel scared for no reason",
+        "I feel anxious all the time",
+        "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
         "Care to share why are you feeling this way?",
@@ -279,28 +283,26 @@
         "I can't overcome my phobia",
         "It's so hard to erase this trauma of mine",
         "I suffered a lot from my upsetting dreams and nightmares",
+        "My nightmares keep hunting me",
+        "I keep experiencing intrusive thoughts about events that may occur out of nowhere",
         ""
       ],
       "responses": [
-        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
-        "I know this is tough for you but we'll get through it together.",
+        "Talk to someone whom you really trust, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
+        "I know this is a tough situation for you but we'll get through this together.",
+        "I may not experiencing what you are feeling right now but you you didn't deserve that, and you deserve support now.",
+        "Each of us must address our own fears and meet them front on. How we deal with our fears will decide where we end up in life. To live an adventure or to be confined by fear of it.",
+        "Fear keeps us focused on the past or concerned about the future; if we can address our fear, we will understand that we are OK right now.",
         ""
       ]
     },
     {
       "tag": "anxiety1.2",
       "patterns": [
-        "I feel scared for no reason",
-        "I' feel anxious all the time",
-        "My heart feels heavy, I don't know what to do"
+        ""
       ],
       "responses": [
-        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
-        "It's perfectly okay to not be okay. I suggest you might wanna take mind off of things",
-        "Be gentle with yourself.",
-        "It's fine to take breaks.",
-        "I know this is tough for you but we'll get through it together.",
-        "Dont feel anxious to others, each one of us is compose of unique talents and abilities."
+        ""
       ]
     },
     {
