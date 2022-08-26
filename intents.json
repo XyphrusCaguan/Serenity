@@ -289,7 +289,7 @@
       ]
     },
     {
-      "tag": "anxiety1.1",
+      "tag": "trauma",
       "patterns": [
         "I feel anxious because I keep thinking about my past",
         "I'm scared because of my trauma",
@@ -312,7 +312,7 @@
       ]
     },
     {
-      "tag": "anxiety1.2", 
+      "tag": "school", 
       "patterns": [
         "I'm afraid that I might fail in my exam",
         "I'm scared because I'm not used to join in contests",
@@ -334,8 +334,29 @@
       ]
     },
     {
-      "tag": "anxiety1.3",
+      "tag": "parents",
       "patterns": [
+        "I'm afraid that my parents will be disappointed in me",
+        "I feel nervous. My parents are surely disappointed",
+        "I'm feeling anxious because of the disappointment of my parents",
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns": [
+        "I'm having a hard time to fit in my new job and I feel anxious",
+        "I feel nervous because I'm new to this job",
+        "I feel scared because I don't what kind of work or job that they will assign me.",
+        ""
+      ],
+      "responses": [
+        "Spend as much time as possible preparing for your new work to help ease tension and anxiety and increase your confidence.",
+        "Discuss your feelings with someone you trust about your new job nerves and any worries about it to help calm your anxiety.",
+        "Ask questions with your peers especially on your first day, in order for you to learn as much as possible about your new job, coworkers, management, and the company.",
         ""
       ]
     },
@@ -354,7 +375,8 @@
         "I’m so tired of dealing with this",
         "I have no appetite",
         "I can't get to clean my room",
-        "I can't help myself"
+        "I can't help myself",
+        "I'm depressed"
       ],
       "responses": [
         "Care to share why are you feeling this way?",
