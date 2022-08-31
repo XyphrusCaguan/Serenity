@@ -392,12 +392,14 @@
         "I'm afraid that I might ran out of money",
         "I can't stop worrying about my financial loss",
         "I'm sad that we don't have enough money",
-        "I have credit card debt. I'm a failure at everything.",
-        "I lost my job. I'm going to be poor.",
-        ""
+        "I have credit card debt. I'm a failure at everything",
+        "I lost my job. I'm going to be poor",
+        "I have a debt",
+        "My financial status right now is not that good"
       ],
       "responses": [
-        ""
+        "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.",
+        "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting."
       ]
     },
     {
