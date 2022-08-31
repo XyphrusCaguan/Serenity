@@ -77,16 +77,14 @@
         "I can't sleep",
         "I'm not sleeping enough",
         "I think I have insomnia",
-        "I had trouble sleeping at night",
-        ""
+        "I had trouble sleeping at night"
       ],
       "responses": [
         "Sleeping is essential to a healthier lifestyle.",
         "You need to sleep to have a better productivity in your daily activities.",
         "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.",
         "If you can't sleep, try to sip some warm milk.",
-        "I suggest you try some nightime yoga.",
-        ""
+        "I suggest you try some nightime yoga."
       ]
     },
     {
@@ -159,8 +157,7 @@
         "Out of nowhere he/she posted a bad comment about me",
         "If someone is harassing me throught the Internet what should I do?",
         "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
-        "Someone is spreading gossip or rumors about me. What should I do?",
-        ""
+        "Someone is spreading gossip or rumors about me. What should I do?"
       ],
       "responses": [
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
@@ -325,16 +322,14 @@
         "It's so hard to erase this trauma of mine",
         "I suffered a lot from my upsetting dreams and nightmares",
         "My nightmares keep hunting me",
-        "I keep experiencing intrusive thoughts about events that may occur out of nowhere",
-        ""
+        "I keep experiencing intrusive thoughts about events that may occur out of nowhere"
       ],
       "responses": [
         "Talk to someone whom you really trust, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
         "I know this is a tough situation for you but we'll get through this together.",
         "I may not experiencing what you are feeling right now but you you didn't deserve that, and you deserve support now.",
         "Each of us must address our own fears and meet them front on. How we deal with our fears will decide where we end up in life. To live an adventure or to be confined by fear of it.",
-        "Fear keeps us focused on the past or concerned about the future; if we can address our fear, we will understand that we are OK right now.",
-        ""
+        "Fear keeps us focused on the past or concerned about the future; if we can address our fear, we will understand that we are OK right now."
       ]
     },
     {
@@ -346,8 +341,7 @@
         "I can't do this, I don't want to perform in the stage",
         "I don't know if I can get high score in my quiz",
         "I'm not confident in myself if I can pass in my exam",
-        "I feel nervous about my score in my quiz",
-        ""
+        "I feel nervous about my score in my quiz"
       ],
       "responses": [
         "Believe in yourself! You can do this!",
@@ -364,8 +358,7 @@
       "patterns": [
         "I'm afraid that my parents will be disappointed in me",
         "I feel nervous. My parents are surely disappointed",
-        "I'm feeling anxious because of the disappointment from my parents",
-        ""
+        "I'm feeling anxious because of the disappointment from my parents"
       ],
       "responses": [
         "Try talking to them. If they are willing to listen, just tell them what you feel. I know that they will understand if you explain it well"
@@ -376,14 +369,12 @@
       "patterns": [
         "I'm having a hard time to fit in my new job and I feel anxious",
         "I feel nervous because I'm new to this job",
-        "I feel scared because I don't what kind of work or job that they will assign to me.",
-        ""
+        "I feel scared because I don't what kind of work or job that they will assign to me."
       ],
       "responses": [
         "Spend as much time as possible preparing for your new work to help ease tension and anxiety and increase your confidence.",
         "Discuss your feelings with someone you trust about your new job nerves and any worries about it to help calm your anxiety.",
-        "Ask questions with your peers especially on your first day, in order for you to learn as much as possible about your new job, coworkers, management, and the company.",
-        ""
+        "Ask questions with your peers especially on your first day, in order for you to learn as much as possible about your new job, coworkers, management, and the company."
       ]
     },
     {
