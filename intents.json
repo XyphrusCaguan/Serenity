@@ -415,6 +415,15 @@
         "You may want to consult with a doctor in order to find out about the condition of your health.",
         "It's better to keep your health in check with the help of your parents especially with the doctor if your health gets worsen."
       ]
+    },
+    {
+      "tag": "love",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
     }
   ]
 }
