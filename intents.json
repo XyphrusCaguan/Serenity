@@ -419,7 +419,18 @@
     {
       "tag": "relationship",
       "patterns": [
-        ""
+        "I think he or she doesn't like me anymore",
+        "I don't know if this relationship can still go on",
+        "He/she doesn't loves me anymore",
+        "Am I still worthy of this relationship",
+        "I'm afraid that I might lose him or her someday",
+        "I worry that he or she might want to break up with me",
+        "I don't think our relationship would last",
+        "I can't take this relationship anymore!",
+        "I feel that my boyfriend or girlfriend doesn't really care about me at all",
+        "I think my boyfriend or girlfriend is cheating on me",
+        "I hate my partner",
+        "I don't love him or her anymore"
       ],
       "responses": [
 
