@@ -96,7 +96,7 @@
       ],
       "responses": [
         "Take short breaks regularly. It can help you improve your focus and concentration",
-        "Pick the right time to study where you are most comfortable.",
+        "Pick the right time to study where you are most comfortable with.",
         "Identify and minimize physical and digital distractions.",
         "Have a good night's sleep.",
         "Train you brain to improve your focus"
@@ -393,17 +393,27 @@
         "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.",
         "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting.",
         "I know that all of us experienced financial loss or having a debt but one of the most important things we can do is develop a connection with money and an understanding of money that is more than simply a problem to be solved.",
-        "If you are having a problem with your financial, a financial planner can help you with this. They can guide you on how much you should invest each month and the kind of investments you should use to achieve your goals. It can also jumpstart savings, even with a small amount of money.",
+        "If you are having a financial problem, a financial planner can help you with this. It can jumpstart savings, even with a small amount of money.",
         "In times when you feel overwhelmed, have a toolbox of strategies available, such as contacting a friend, going for a walk, or reading a book."
       ]
     },
     {
       "tag": "health",
       "patterns": [
-        ""
+        "I am worrying about my health",
+        "I'm afraid that I might have an illness",
+        "I feel anxious about my health",
+        "I cannot stop thinking about my illness",
+        "I may be seriously ill",
+        "I fear that my health is getting deteriorated",
+        "I feel uncomfortable right now because of my illness",
+        "The condition of my health is not good"
       ],
       "responses": [
-        ""
+        "I suggest that you should have a medical appointment with a medical practitioner if you are concern about your health.",
+        "If you are worrying about your health, try to keep busy with other things like going for a walk or calling a friend.",
+        "You may want to consult with a doctor in order to find out about the condition of your health.",
+        "It's better to keep your health in check with the help of your parents especially with the doctor if your health gets worsen."
       ]
     }
   ]
