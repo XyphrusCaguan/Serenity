@@ -126,6 +126,16 @@
       ]
     },
     {
+      "tag": "stress",
+      "patterns": [
+        "I'm stressed",
+        ""
+      ],
+      "responses":[
+        ""
+      ]
+    },
+    {
       "tag": "bully",
       "patterns": [
         "I am being bullied.",
@@ -433,7 +443,7 @@
         "I don't love him or her anymore"
       ],
       "responses": [
-
+          ""
       ]
     }
   ]
