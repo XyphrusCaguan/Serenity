@@ -75,13 +75,31 @@
       "tag": "sleep",
       "patterns": [
         "I can't sleep",
-        "Staying up all night is fine",
-        "I'm not sleeping",
-        "I think I have insomnia"
+        "I'm not sleeping enough",
+        "I think I have insomnia",
+        "I had trouble sleeping at night"
       ],
       "responses": [
-        "Sleeping is essential to a healthier lifestyle",
-        "You need to sleep to have a better productivity in your daily activities"
+        "Sleeping is essential to a healthier lifestyle.",
+        "You need to sleep to have a better productivity in your daily activities.",
+        "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.",
+        "If you can't sleep, try to sip some warm milk.",
+        "I suggest you try some nightime yoga."
+      ]
+    },
+    {
+      "tag": "study",
+      "patterns": [
+        "I can't focused on my studies",
+        "I can't study very well",
+        "Any tips on how to focused on your studies?"
+      ],
+      "responses": [
+        "Take short breaks regularly. It can help you improve your focus and concentration",
+        "Pick the right time to study where you are most comfortable with.",
+        "Identify and minimize physical and digital distractions.",
+        "Have a good night's sleep.",
+        "Train you brain to improve your focus"
       ]
     },
     {
@@ -108,11 +126,26 @@
       ]
     },
     {
-      "tag": "bully1.0",
+      "tag": "stress",
       "patterns": [
-        "I am being bullied. What should I do?",
-        "I'm a victim of bullying. What to do?",
-        "Do you have any advice on how to stop bullying?"
+        "I'm stressed",
+        ""
+      ],
+      "responses":[
+        ""
+      ]
+    },
+    {
+      "tag": "bully",
+      "patterns": [
+        "I am being bullied.",
+        "I'm a victim of bullying.",
+        "Do you have any advice on how to stop bullying?",
+        "How to stop bullying?",
+        "I can't take being bullied anymore.",
+        "Someone is bullying me.",
+        "I hate it when someone is bullying me.",
+        "Out of nowhere he/she is bullying me."
       ],
       "responses": [
         "You might want to talk about it to your parents or your teacher as soon as possible.",
@@ -124,75 +157,14 @@
       ]
     },
     {
-      "tag": "bully1.1",
-      "patterns": [
-        "I'm not feeling good because someone is bullying me",
-        "I can't take being bullied anymore",
-        "Someone is bullying me",
-        "I hate it when someone is bullying me"
-      ],
-      "responses": [
-        "Why does he/she bullies you?",
-        "What is the reason he/she bullies you?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "bully1.2",
-      "patterns": [
-        "He/she bullies me because of my appearance that they want to tease me all the time",
-        "The reason why he/she bullies me because I am powerless",
-        "He/she suddenly bullies me",
-        "Out of nowhere he/she bullies me",
-        "It's because of teasing",
-        "First he/she started to slap/smack me"
-      ],
-      "responses": [
-        "You might want to talk about it to your parents or your teacher as soon as possible.",
-        "Seek counseling, especially to someone you trust the most.",
-        "If you feel unsafe, always find help.",
-        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
-        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
-        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
-      ]
-    },
-    {
-      "tag": "cyberbullying1.0",
+      "tag": "cyberbully",
       "patterns": [
         "Someone is harassing me through the Internet",
         "I'm receiving hate comments on the Internet",
         "I hate it when someone is gossiping about me",
         "People are being rude to me in social media",
         "Someone insulted me in their post",
-        ""
-      ],
-      "responses": [
-        "Why is that?",
-        "What is the reason he/she does that?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "cyberbullying1.1",
-      "patterns": [
-        "He/she does that to me because he/she wants to make fun of me",
-        "The reason why he/she does that is because he/she hates me so bad",
-        "He/she suddenly mention about",
         "Out of nowhere he/she posted a bad comment about me",
-        "It's because of jealousy"
-      ],
-      "responses": [
-        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
-        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
-        "Talk to someone that you want to share with your problem.",
-        "Report bullying where it happens."
-      ]
-    },
-    {
-      "tag": "cyberbullying1.2",
-      "patterns": [
         "If someone is harassing me throught the Internet what should I do?",
         "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
         "Someone is spreading gossip or rumors about me. What should I do?"
@@ -201,50 +173,21 @@
         "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
         "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
         "Talk to someone that you want to share with your problem.",
-        "Report bullying where it happens."
+        "Report bullying where it happens.",
+        "Reach out for help especially if the behavior's really getting to you.",
+        "I encourage you to limit your use of Internet or social media in order to avoid further conflict."
       ]
     },
     {
-      "tag": "argue1.0",
+      "tag": "argue",
       "patterns": [
         "What should I do if I had an argument with someone?",
-        "I can't control my anger issues, what do I do?"
-      ],
-      "responses": [
-        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
-        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
-        "Cool off for the time being to avoid further conflicts.",
-        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
-        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
-      ]
-    },
-    {
-      "tag": "argue1.1",
-      "patterns": [
         "I had an argument",
         "I got into an argument with someone",
-        "Me and my had an argument",
+        "Me and my friend had an argument",
         "He/she argues with me"
       ],
       "responses": [
-        "Why did you have an argument?",
-        "What is the reason that you had an argument with him/her?",
-        "What's the cause of it?",
-        "What happened?"
-      ]
-    },
-    {
-      "tag": "argue1.2",
-      "patterns": [
-        "He/she argues because",
-        "The reason why he/she argues with me because",
-        "He/she suddenly argues",
-        "Out of nowhere he/she argues",
-        "Suddenly he/she argues",
-        "It's because of",
-        "First he/she"
-      ],
-      "responses": [
         "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
         "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
         "Cool off for the time being to avoid further conflicts.",
@@ -253,7 +196,7 @@
       ]
     },
     {
-      "tag": "suicide1.0",
+      "tag": "suicide",
       "patterns": [
         "I want to die",
         "I'm considering suicide",
@@ -274,33 +217,54 @@
         "I have let myself people down",
         "It's better to be gone for good",
         "I'm losing hope",
-        "I'm useless"
+        "I'm useless",
+        "I don't see any hope at all",
+        "I want to give up my life",
+        "I'm doomed",
+        "Nobody loves me",
+        "I hate myself",
+        "There's hope for me",
+        "I screwed my life",
+        "I'm not worthy enough",
+        "My life is a mess",
+        "Everything falling apart"
       ],
       "responses": [
         "Care to share why are you feeling this way?",
-        "Is there anything I can do for you?",
         "Why is that?",
         "Can you tell me why are you feeling this way?",
         "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can hep you?"
+        "Are you okay? Can you tell me what are you feeling this way?"
       ]
     },
     {
       "tag": "suicide1.1",
       "patterns": [
-        "I feel this way because",
+        "I feel this way because I think no one cares for me anymore",
         "I don't even know",
         "I've been through a lot",
-        "I don't even understand anymore of myself",
+        "I don't even understand myself anymore",
         "I'm having a hard time",
-        ""
+        "I just want to say all my feelings here since no one is willing to listen to me",
+        "I don't want to think anymore of this",
+        "I don't know what to say",
+        "I have no purpose in life"
       ],
       "responses": [
-        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you."
+        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you.",
+        "I'm here for you. You're not alone. We can get through this together.",
+        "I may not know what you really feel right now or may not know what is your situation but I assure you that there will be someone who will understand your situation.",
+        "Be strong, there always a hope.",
+        "When you're contemplating how far you can go, consider how far you've already come. Remember everything you've faced, every struggle you've won, and every fear you've overcome.",
+        "Have faith in yourself that you can get through this obstacles.",
+        "You're not a failure, just remember that everyone of us has a great purpose in life and our exsience is a treasure.",
+        "Stay strong, you can conquer the adversity of your life.",
+        "Maintain your fortitude. Stay true to yourself and to who you are because there will be someone who believes in you. You are wanted and loved and there are places in the worls where you will be safe and supported.",
+        "Even though you lose hope to yourself, there wil be a someone that always love and accept you."
       ]
     },
     {
-      "tag": "anxiety1.0",
+      "tag": "anxiety",
       "patterns": [
         "I'm feeling anxious",
         "I feel like people are looking at me",
@@ -313,28 +277,22 @@
         "I'm sweating a little",
         "I can't clear out my mind",
         "I can't focus today",
-        "I can't function properly"
-      ],
-      "responses": [
-        "Care to share why are you feeling this way?",
-        "Is there anything I can do for you?",
-        "Why is that?",
-        "Can you tell me why are you feeling this way?",
-        "Is there a problem? Can you elaborate it to me?",
-        "Are you okay? Is there anything I can help you?"
-      ]
-    },
-    {
-      "tag": "anxiety1.1",
-      "patterns": [
-        "I feel anxious because",
-        "I feel afraid because",
-        "There are a lot of things I've been thinking of",
+        "I can't function properly",
+        "I feel scared",
+        "I feel anxious",
+        "I feel pressured",
+        "I'm nervous",
+        "I feel frightened",
+        "I feel scared for no reason",
+        "I feel anxious all the time",
         "My heart feels heavy, I don't know what to do"
       ],
       "responses": [
-        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
-        ""
+        "Care to share why are you feeling this way?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Can you tell me what are you feeling this way?"
       ]
     },
     {
@@ -352,19 +310,140 @@
         "I’m so tired of dealing with this",
         "I have no appetite",
         "I can't get to clean my room",
-        "I can't help myself"
+        "I can't help myself",
+        "I'm depressed"
       ],
       "responses": [
-        ""
+        "Care to share why are you feeling this way?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Can you tell me what are you feeling this way?"
       ]
     },
     {
-      "tag": "",
+      "tag": "trauma",
       "patterns": [
-        ""
+        "I feel anxious because I keep thinking about my past",
+        "I'm scared because of my trauma",
+        "I'm afraid because I keep recalling bad memories",
+        "There are a lot of things I've been thinking of",
+        "I can't overcome my phobia",
+        "It's so hard to erase this trauma of mine",
+        "I suffered a lot from my upsetting dreams and nightmares",
+        "My nightmares keep hunting me",
+        "I keep experiencing intrusive thoughts about events that may occur out of nowhere"
       ],
       "responses": [
-        ""
+        "Talk to someone whom you really trust, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
+        "I know this is a tough situation for you but we'll get through this together.",
+        "I may not experiencing what you are feeling right now but you you didn't deserve that, and you deserve support now.",
+        "Each of us must address our own fears and meet them front on. How we deal with our fears will decide where we end up in life. To live an adventure or to be confined by fear of it.",
+        "Fear keeps us focused on the past or concerned about the future; if we can address our fear, we will understand that we are OK right now."
+      ]
+    },
+    {
+      "tag": "school", 
+      "patterns": [
+        "I'm afraid that I might fail in my exam",
+        "I'm scared because I'm not used to join in contests",
+        "I had stage fright whenever I go in front of the audience",
+        "I can't do this, I don't want to perform in the stage",
+        "I don't know if I can get high score in my quiz",
+        "I'm not confident in myself if I can pass in my exam",
+        "I feel nervous about my score in my quiz"
+      ],
+      "responses": [
+        "Believe in yourself! You can do this!",
+        "Be confident. A better world may be built by realizing one's own potential and having faith in one's own capabilities.",
+        "Trust yourself more, you know more than you think.",
+        "Remember that you are braver than you believe, stronger than you seem, and brighter than you realize.",
+        "Never give up on yourself because positivity, confidence, and persistence are important in life.",
+        "Believe in yourself, don't allow anyone undermine your self-esteem.",
+        "Face your fears."
+      ]
+    },
+    {
+      "tag": "parents",
+      "patterns": [
+        "I'm afraid that my parents will be disappointed in me",
+        "I feel nervous. My parents are surely disappointed",
+        "I'm feeling anxious because of the disappointment from my parents"
+      ],
+      "responses": [
+        "Try talking to them. If they are willing to listen, just tell them what you feel. I know that they will understand if you explain it well",
+        "Don't be afraid, I know it's hard to speak up especially when confronting with your parents but try talking out to them so that they will know what you really feel."
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns": [
+        "I'm having a hard time to fit in my new job and I feel anxious",
+        "I feel nervous because I'm new to this job",
+        "I feel scared because I don't what kind of work or job that they will assign to me."
+      ],
+      "responses": [
+        "Spend as much time as possible preparing for your new work to help ease tension and anxiety and increase your confidence.",
+        "Discuss your feelings with someone you trust about your new job nerves and any worries about it to help calm your anxiety.",
+        "Ask questions with your peers especially on your first day, in order for you to learn as much as possible about your new job, coworkers, management, and the company."
+      ]
+    },
+    {
+      "tag": "financial",
+      "patterns": [
+        "I'm afraid that I might ran out of money",
+        "I can't stop worrying about my financial loss",
+        "I'm sad that we don't have enough money",
+        "I have credit card debt. I'm a failure at everything",
+        "I lost my job. I'm going to be poor",
+        "I have a debt",
+        "My financial status right now is not that good"
+      ],
+      "responses": [
+        "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.",
+        "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting.",
+        "I know that all of us experienced financial loss or having a debt but one of the most important things we can do is develop a connection with money and an understanding of money that is more than simply a problem to be solved.",
+        "If you are having a financial problem, a financial planner can help you with this. It can jumpstart savings, even with a small amount of money.",
+        "In times when you feel overwhelmed, have a toolbox of strategies available, such as contacting a friend, going for a walk, or reading a book."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "I am worrying about my health",
+        "I'm afraid that I might have an illness",
+        "I feel anxious about my health",
+        "I cannot stop thinking about my illness",
+        "I may be seriously ill",
+        "I fear that my health is getting deteriorated",
+        "I feel uncomfortable right now because of my illness",
+        "The condition of my health is not good"
+      ],
+      "responses": [
+        "I suggest that you should have a medical appointment with a medical practitioner if you are concern about your health.",
+        "If you are worrying about your health, try to keep busy with other things like going for a walk or calling a friend.",
+        "You may want to consult with a doctor in order to find out about the condition of your health.",
+        "It's better to keep your health in check with the help of your parents especially with the doctor if your health gets worsen."
+      ]
+    },
+    {
+      "tag": "relationship",
+      "patterns": [
+        "I think he or she doesn't like me anymore",
+        "I don't know if this relationship can still go on",
+        "He/she doesn't loves me anymore",
+        "Am I still worthy of this relationship",
+        "I'm afraid that I might lose him or her someday",
+        "I worry that he or she might want to break up with me",
+        "I don't think our relationship would last",
+        "I can't take this relationship anymore!",
+        "I feel that my boyfriend or girlfriend doesn't really care about me at all",
+        "I think my boyfriend or girlfriend is cheating on me",
+        "I hate my partner",
+        "I don't love him or her anymore"
+      ],
+      "responses": [
+          ""
       ]
     }
   ]
