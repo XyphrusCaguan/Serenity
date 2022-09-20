@@ -1,0 +1,371 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "It's been a while"
+      ],
+      "responses": [
+        "Hello",
+        "Hi there. What can I do for you?",
+        "Hi there. How can I help you?",
+        "Hello there. Is there anything I can do for you?",
+        "Hi. What brings you in today?",
+        "Greetings! What can I do for you?",
+        "Greetings! Is there anything that I can help?"
+      ]
+    },
+    {
+      "tag": "morning greeting",
+      "patterns": [
+        "Good Morning",
+        "Morning"
+      ],
+      "responses": [
+        "Good Morning",
+        "Morning to you too"
+      ]
+    },
+    {
+      "tag": "afternoon greeting",
+      "patterns": [
+        "Good Afternoon",
+        "Afternoon"
+      ],
+      "responses": [
+        "Good Afternoon"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!", 
+        "Thank you so much", 
+        "Really appreciate your help"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!",
+        "My pleasure",
+        "You're welcome", 
+        "I'm glad that I can be of service to you"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Your name?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I am Serenity",
+        "My name is Serenity"
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I can't sleep",
+        "Staying up all night is fine",
+        "I'm not sleeping",
+        "I think I have insomnia"
+      ],
+      "responses": [
+        "Sleeping is essential to a healthier lifestyle",
+        "You need to sleep to have a better productivity in your daily activities"
+      ]
+    },
+    {
+      "tag": "sleeping exchange",
+      "patterns": [
+        "Good Night",
+        "Night"
+      ],
+      "responses": [
+        "Good Night",
+        "Have a good night sleep"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "bully1.0",
+      "patterns": [
+        "I am being bullied. What should I do?",
+        "I'm a victim of bullying. What to do?",
+        "Do you have any advice on how to stop bullying?"
+      ],
+      "responses": [
+        "You might want to talk about it to your parents or your teacher as soon as possible.",
+        "Seek counseling, especially to someone you trust the most.",
+        "If you feel unsafe, always find help.",
+        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
+        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
+        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
+      ]
+    },
+    {
+      "tag": "bully1.1",
+      "patterns": [
+        "I'm not feeling good because someone is bullying me",
+        "I can't take being bullied anymore",
+        "Someone is bullying me",
+        "I hate it when someone is bullying me"
+      ],
+      "responses": [
+        "Why does he/she bullies you?",
+        "What is the reason he/she bullies you?",
+        "What's the cause of it?",
+        "What happened?"
+      ]
+    },
+    {
+      "tag": "bully1.2",
+      "patterns": [
+        "He/she bullies me because of my appearance that they want to tease me all the time",
+        "The reason why he/she bullies me because I am powerless",
+        "He/she suddenly bullies me",
+        "Out of nowhere he/she bullies me",
+        "It's because of teasing",
+        "First he/she started to slap/smack me"
+      ],
+      "responses": [
+        "You might want to talk about it to your parents or your teacher as soon as possible.",
+        "Seek counseling, especially to someone you trust the most.",
+        "If you feel unsafe, always find help.",
+        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
+        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
+        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
+      ]
+    },
+    {
+      "tag": "cyberbullying1.0",
+      "patterns": [
+        "Someone is harassing me through the Internet",
+        "I'm receiving hate comments on the Internet",
+        "I hate it when someone is gossiping about me",
+        "People are being rude to me in social media",
+        "Someone insulted me in their post",
+        ""
+      ],
+      "responses": [
+        "Why is that?",
+        "What is the reason he/she does that?",
+        "What's the cause of it?",
+        "What happened?"
+      ]
+    },
+    {
+      "tag": "cyberbullying1.1",
+      "patterns": [
+        "He/she does that to me because he/she wants to make fun of me",
+        "The reason why he/she does that is because he/she hates me so bad",
+        "He/she suddenly mention about",
+        "Out of nowhere he/she posted a bad comment about me",
+        "It's because of jealousy"
+      ],
+      "responses": [
+        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
+        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
+        "Talk to someone that you want to share with your problem.",
+        "Report bullying where it happens."
+      ]
+    },
+    {
+      "tag": "cyberbullying1.2",
+      "patterns": [
+        "If someone is harassing me throught the Internet what should I do?",
+        "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
+        "Someone is spreading gossip or rumors about me. What should I do?"
+      ],
+      "responses": [
+        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
+        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
+        "Talk to someone that you want to share with your problem.",
+        "Report bullying where it happens."
+      ]
+    },
+    {
+      "tag": "argue1.0",
+      "patterns": [
+        "What should I do if I had an argument with someone?",
+        "I can't control my anger issues, what do I do?"
+      ],
+      "responses": [
+        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
+        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
+        "Cool off for the time being to avoid further conflicts.",
+        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
+      ]
+    },
+    {
+      "tag": "argue1.1",
+      "patterns": [
+        "I had an argument",
+        "I got into an argument with someone",
+        "Me and my had an argument",
+        "He/she argues with me"
+      ],
+      "responses": [
+        "Why did you have an argument?",
+        "What is the reason that you had an argument with him/her?",
+        "What's the cause of it?",
+        "What happened?"
+      ]
+    },
+    {
+      "tag": "argue1.2",
+      "patterns": [
+        "He/she argues because",
+        "The reason why he/she argues with me because",
+        "He/she suddenly argues",
+        "Out of nowhere he/she argues",
+        "Suddenly he/she argues",
+        "It's because of",
+        "First he/she"
+      ],
+      "responses": [
+        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
+        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
+        "Cool off for the time being to avoid further conflicts.",
+        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
+        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
+      ]
+    },
+    {
+      "tag": "suicide1.0",
+      "patterns": [
+        "I want to die",
+        "I'm considering suicide",
+        "I'm having suicidal thoughts",
+        "I want to kill myself",
+        "I want to be gone forever",
+        "I don't think I can do this. My life is not worth it",
+        "I'm not good enough",
+        "There's no point in living",
+        "I'm weak. I can't bear this pain",
+        "Nobody cares about me",
+        "If I die, it's the best for everyone",
+        "I have lost everything",
+        "I am a failure",
+        "I am a burden",
+        "Things will never get better for me",
+        "No one needs me",
+        "I have let myself people down",
+        "It's better to be gone for good",
+        "I'm losing hope",
+        "I'm useless"
+      ],
+      "responses": [
+        "Care to share why are you feeling this way?",
+        "Is there anything I can do for you?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Is there anything I can hep you?"
+      ]
+    },
+    {
+      "tag": "suicide1.1",
+      "patterns": [
+        "I feel this way because",
+        "I don't even know",
+        "I've been through a lot",
+        "I don't even understand anymore of myself",
+        "I'm having a hard time",
+        ""
+      ],
+      "responses": [
+        "I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you."
+      ]
+    },
+    {
+      "tag": "anxiety1.0",
+      "patterns": [
+        "I'm feeling anxious",
+        "I feel like people are looking at me",
+        "I'm scared",
+        "I'm afraid that something might happen to me",
+        "I can't stop worrying",
+        "My mind is racing",
+        "I'm exhausted",
+        "I feel hot",
+        "I'm sweating a little",
+        "I can't clear out my mind",
+        "I can't focus today",
+        "I can't function properly"
+      ],
+      "responses": [
+        "Care to share why are you feeling this way?",
+        "Is there anything I can do for you?",
+        "Why is that?",
+        "Can you tell me why are you feeling this way?",
+        "Is there a problem? Can you elaborate it to me?",
+        "Are you okay? Is there anything I can help you?"
+      ]
+    },
+    {
+      "tag": "anxiety1.1",
+      "patterns": [
+        "I feel anxious because",
+        "I feel afraid because",
+        "There are a lot of things I've been thinking of",
+        "My heart feels heavy, I don't know what to do"
+      ],
+      "responses": [
+        "Talk to someone, especially if you feel overwhelmed by your emotions, and let them know how they can help you.",
+        ""
+      ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": [
+        "I'm feeling depressed",
+        "I feel empty",
+        "I feel numb",
+        "Nothing makes sense",
+        "I'm feeling hopeless",
+        "Everything is insignificant",
+        "I can’t get out of bed",
+        "I can’t feel better",
+        "I can’t get things to be good",
+        "I’m so tired of dealing with this",
+        "I have no appetite",
+        "I can't get to clean my room",
+        "I can't help myself"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
