@@ -22,6 +22,9 @@ $ git clone https://github.com/python-engineer/chatbot-deployment.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
 $ . venv/bin/activate
+or
+$ . venv/Scripts/activate
+# if . venv/bin/activate try using . venv/Scripts/activate base on its file path
 ```
 Install dependencies
 ```
