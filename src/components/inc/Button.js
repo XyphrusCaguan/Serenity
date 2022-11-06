@@ -1,35 +1,45 @@
 import React from "react";
+import { useState, useEffect } from 'react';
 // import LoremIpsum from 'react-lorem-ipsum';
 import Form from "../inc/Form.js";
+import Chatbox from '../inc/Chatbox.js'
+
 function Button (){
+    // define variables for the present state of the form and another to change its state
+    const [showForm, setShowForm] = useState(false);
+    const [articles, setArticles] = useState([]);
+    // toggle between the two states,visible and hidden
+    const toggleShowForm = () => {
+        setShowForm(!showForm);
+    }
+    const insertedArticle = (article) =>{
+        const new_articles = [...articles,article]
+        setArticles(new_articles)
+        console.log(new_articles)
+    }
+
     const mystyle = {
         color: "black",
         fontFamily: "Arial"
       };
     return (
-<div style={mystyle} className='buttonForm'> 
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Click Me
-    </button>
-    
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        <div class="modal-content bg-secondary">
-            <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-            {/*<p>{LoremIpsum()}</p>*/}
-            <Form/>
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Understood</button>
-            </div>
+    <div>
+        <div>
+            {this.insertedArticle(this.props.new_articles)}
         </div>
+        <div style={mystyle} className='buttonForm'> 
+            <button 
+            onClick={toggleShowForm}
+            className="btn btn-primary"
+            >
+            Write an article
+            <i className="bi bi-pencil-square m-2"></i>
+            </button>
+            {showForm && (
+            <Chatbox insertedArticle={insertedArticle}
+            />
+            )}
         </div>
-    </div>
     </div>
     );
 }

@@ -9,7 +9,7 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                <h6 class="mt-3">
+                <h6 className="mt-3">
                     About Serenity
                 </h6>
                 <hr/>
@@ -20,7 +20,7 @@ function Footer() {
 
                 </div>
                 <div className="col-md-4">
-                <h6 class="mt-3">
+                <h6 className="mt-3">
                     Quick Links
                 </h6>
                 <hr/>
@@ -37,12 +37,12 @@ function Footer() {
 
                 </div>
                 <div className="col-md-4">
-                <h6 class="mt-3">Support Us?</h6>
+                <h6 className="mt-3">Support Us?</h6>
                 <hr/>
-                <div class="mx-lg-3"><p className="text-white mb-1">Patreon</p></div>
-                <div class="mx-lg-3"><p className="text-white mb-1">Gcash</p></div>
-                <div class="mx-lg-3"><p className="text-white mb-1">Paymaya</p></div>
-                <div class="mx-lg-3"><p className="text-white mb-1">Paypal</p></div>
+                <div className="mx-lg-3"><p className="text-white mb-1">Patreon</p></div>
+                <div className="mx-lg-3"><p className="text-white mb-1">Gcash</p></div>
+                <div className="mx-lg-3"><p className="text-white mb-1">Paymaya</p></div>
+                <div className="mx-lg-3"><p className="text-white mb-1">Paypal</p></div>
 
                 </div>
 

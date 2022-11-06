@@ -1,54 +1,62 @@
-import React from "react";
-import Chatbox from "../inc/Chatbot.js";
+import axios from 'axios';
+import React, {useState, useEffect} from 'react';
+import { useParams, useNavigate } from "react-router";
 
-import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js";
-import "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js";
+function Form(){
+  const [data, setData]=useState(null);
+  const [print, setPrint]=useState(false);
+  const [response, setResponse]=useState([]);
+  const [messages, setMessage]=useState(null)
+  
+  function getData(val){
+    setData(val.target.value)
+    setPrint(false)
+  }
 
+  useEffect( () => {
+    loadResponse();
+  }, []);
+  
+  const loadResponse = async() => {
 
-
-function Form() {
+    var text = data
     
-    <Chatbox/>
-    return(
-    <div class="container">
+    let msg1 = { name: "User", message: text}
+    setMessage(msg1)
+    console.log(msg1)
 
-    
-            <div class="chatbox">
-                <div class="chatbox__support">
-                    <div class="chatbox__header">
-                        <div class="chatbox__image--header">
-                            <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt=""/>
-                        </div>
-                        <div class="chatbox__content--header">
-                            <h4 class="chatbox__heading--header">Chat support</h4>
-                            <p class="chatbox__description--header">Hi. My name is Serenity. How can I help you?</p>
-                        </div>
-                    </div>
-                    <div class="opBtnBg">
-                        <button class="oBtn" onclick="openForm()">Open Form</button>
-                    </div>
-                    <div class="chatbox__messages">
-                        <ul id="messages"></ul>
-                    </div>
-                    <div class="chatbox__footer" >
-                       {/*
-                        <form id="message-user">
-                        </form>
-                        */}
-                        <input id="message-input" type="text" placeholder="Write a message..." class="uInput"/>
-                        {/*chatbox__send--footer send__button  */}
-                        <button id="message-btn" class="send__button" type="submit">Send</button>
-                    </div>
-                </div>
-                <div class="chatbox__button">
-                    <button class="btn"><img src="/static/images/chatbox-icon.svg" alt= "" /></button>
-                </div>
-            </div>
-       
-       </div>
 
-    );
-    
+    await fetch("http://127.0.0.1:5000/predict", {
+      method: "POST",
+      body: JSON.stringify({message: text}),
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+    })
+      .then(response => response.json())
+      .then(response => {
+        let msg2 = { name: "Serenity", message: response.answer };
+        setMessage(msg2)
+        console.log(msg2)
+      })
+    }
+  
+  return(
+    <div>
+      {
+        print?
+        <h1>{data}</h1>
+        :null
+      }
+      {}
+      <form method='POST'>
+        <input type="text" onChange={getData}/>
+        <button onClick={() => setPrint(true)}>Send</button>
+      </form>
+      
+    </div>
+  )
 }
 
 export default Form;

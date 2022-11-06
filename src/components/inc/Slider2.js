@@ -13,40 +13,40 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 function Slider2 () {
     return( 
         
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-inner">
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+        <div className="carousel-inner">
 
-          <div class="carousel-item active">
+          <div className="carousel-item active">
 
-            <img src={help} class="d-block min-vh-100 w-100" alt="..."/>
-            <div class="carousel-caption">
-              <h5 class="fs-1">Contact Us</h5>
+            <img src={help} className="d-block min-vh-100 w-100" alt="..."/>
+            <div className="carousel-caption">
+              <h5 className="fs-1">Contact Us</h5>
               <p>{LoremIpsum()}</p>
-              <div class="slider-btn mt-4">
+              <div className="slider-btn mt-4">
 
-                <button class="btn btn-primary mt-3">Contact us on email.</button> 
-                <button class="btn btn-secondary ms-lg-3 mt-3">Contact us on email.</button>
+                <button className="btn btn-primary mt-3">Contact us on email.</button> 
+                <button className="btn btn-secondary ms-lg-3 mt-3">Contact us on email.</button>
 
-                <div class="social-buttons mt-lg-3 mt-3">
+                <div className="social-buttons mt-lg-3 mt-3">
                 <button onClick={(e) => {
                 e.preventDefault();
                 window.location.href='https://www.facebook.com/';
-                }}class="btn btn-link me-lg-3 me-3">
-                <i class="bi-facebook" ></i>
+                }}className="btn btn-link me-lg-3 me-3">
+                <i className="bi-facebook" ></i>
                 </button>
 
                 <button onClick={(e) => {
                 e.preventDefault();
                 window.location.href='https://www.twitter.com/';
-                }}class="btn btn-link ms-lg-3 ms-3 me-lg-3 me-3">
-                <i class="bi-twitter"></i>
+                }}className="btn btn-link ms-lg-3 ms-3 me-lg-3 me-3">
+                <i className="bi-twitter"></i>
                 </button>
                 
                 <button onClick={(e) => {
                 e.preventDefault();
                 window.location.href='https://www.instagram.com/';
-                }}class="btn btn-link ms-lg-3 ms-3">
-                <i class="bi-instagram"></i>
+                }}className="btn btn-link ms-lg-3 ms-3">
+                <i className="bi-instagram"></i>
                 </button>
                 
                 
