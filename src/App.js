@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Footer from './components/inc/Footer';
 
 function App() {
+
   return (
 
   <Router>
@@ -23,11 +24,10 @@ function App() {
   <Route path="/login" element={<Login />} />
   </Routes>
   <Footer/>
-  
    </div>
 
   </Router>
-
+  
 
   );
 }
