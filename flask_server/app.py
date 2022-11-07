@@ -13,7 +13,7 @@ def predict():
     body = request.json['body']
     print("Input: ", request.get_json(body))
     response = get_response(body)
-    message = {"answer": response}
+    message = {"answer": response, "input": body} 
     print("Output: ", message)
     return jsonify(message)
     # TODO: check if text is valid
