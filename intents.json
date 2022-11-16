@@ -127,7 +127,11 @@
     {"tag": "suicide",
         "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide", "I'm having suicidal thoughts", "I want to be gone forever", "I'm considering suicide", "My life is not worth it", "There's no point in living anymore"],
         "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 0966-351-4518."]
-    }, 
+    },
+    {"tag": "health",
+        "patterns": ["I am worrying about my health", "I may be seriously ill", "I'm afraid that I might have an illness", "The condition of my health is not good"],
+        "responses": ["I suggest that you should have a medical appointment with a medical practitioner if you are concern about your health.", "If you are worrying about your health, try to keep busy with other things like going for a walk or calling a friend.", "You may want to consult with a doctor in order to find out about the condition of your health.", "It's better to keep your health in check with the help of your parents especially with the doctor if your health gets worsen."]
+    },
     {"tag": "feeling",
         "patterns": ["I feel this way because I think no one cares for me anymore", "I don't even know what I'm feeling anymore", "I've been through a lot", "I don't even understand myself anymore", "I'm having a hard time", "I just want to say all my feelings here since no one is willing to listen to me", "I don't want to think anymore of this", "I don't know what to say", "I have no purpose in life"],
         "responses": ["I assure you that you are not alone, there is someone who really cares for you and I also care about you and your health. I'm here for you.", "I'm here for you. You're not alone. We can get through this together.", "I may not know what you really feel right now or may not know what is your situation but I assure you that there will be someone who will understand your situation.", "Be strong, there always a hope.", "When you're contemplating how far you can go, consider how far you've already come. Remember everything you've faced, every struggle you've won, and every fear you've overcome.", "Have faith in yourself that you can get through this obstacles.", "You're not a failure, just remember that everyone of us has a great purpose in life and our exsience is a treasure.", "Stay strong, you can conquer the adversity of your life.", "Maintain your fortitude. Stay true to yourself and to who you are because there will be someone who believes in you. You are loved and there are people who cares for you", "Even though you lose hope to yourelf, there will be someone that always love and accept you."]
@@ -173,8 +177,12 @@
         "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you."]
     },
     {"tag": "no-approach",
-        "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+        "patterns": ["I guess not. All I can think about are my exams.", "not really", "I guess not"],
         "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+    },
+    {"tag": "diagnosis",
+        "patterns": ["Can you diagnose my symptoms?", "I want to find out my symptoms"],
+        "responses": ["I'm sorry I cannot help you with that. I can only answer your question regarding to your problem and give advices but cannot diagnose.", "I suggest you to seek a professional help for diagnosing your symptoms."]
     },
     {"tag": "learn-more",
             "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
@@ -189,7 +197,7 @@
         "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
     },
     {"tag": "user-meditation",
-        "patterns": ["i did what you said and I feel alot better. thank you very much.", "I feel better now"],
+        "patterns": ["I did what you said and I feel a lot better. thank you very much.", "I feel better now"],
         "responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."]
     },
     {"tag": "serenity-useful",
@@ -229,7 +237,7 @@
         "responses": ["A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "]
     },
     {"tag": "fact-7",
-        "patterns": ["What is therapy?", "Do i need therapy?", "Who is therapy for?"],
+        "patterns": ["What is therapy?", "Do I need therapy?", "Who is therapy for?"],
         "responses": ["Therapy is a form of treatment that aims to help resolve mental or emotional issues.", "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."]
     },
     {"tag": "fact-8",
@@ -254,7 +262,7 @@
     },
     {"tag": "fact-13",
         "patterns": ["What should I do if I know someone who appears to have the symptoms of a mental disorder?"],
-        "responses": ["Although Pandora cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."]
+        "responses": ["Although Sernity cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."]
     },
     {"tag": "fact-14",
         "patterns": ["How can I find a mental health professional for myself or my child?"],
@@ -331,6 +339,14 @@
     {"tag": "fact-32",
         "patterns": ["What's the difference between sadness and depression?", "Difference between sadness and depression"],
         "responses": ["Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."]
-    }
+    },
+    {"tag": "fact-33",
+        "patterns": ["What's the difference between psychiatrist and psychologist?", "Difference between psychiatrist and psychologist?"],
+        "responses": ["Both psychiatrist and psychologist can provide psychotherapy. However, most psyciatrists treat patients by prescribing medication, whereas psychologits usually provide talk and/or behavioral therapy."]
+    },
+    {"tag": "fact-34",
+    "patterns": ["Should I see a psychologist or psychiatrist first?"],
+    "responses": ["It doesn't matter who to seek first especially if you are struggling with your mental health. Seeking help is an important step toward living a full and meaningful life. The good news is that experienced mental health professionals have the necessary knowledge and skills to help clients in making an informed decision about the path of their treatment."]
+}
   ]
 }
