@@ -363,6 +363,10 @@
     {"tag": "fact-34",
     "patterns": ["Should I see a psychologist or psychiatrist first?"],
     "responses": ["It doesn't matter who to seek first especially if you are struggling with your mental health. Seeking help is an important step toward living a full and meaningful life. The good news is that experienced mental health professionals have the necessary knowledge and skills to help clients in making an informed decision about the path of their treatment."]
-}
+    },
+    {"tag": "fact-35",
+    "patterns": ["What should I do if I had mental health problem?"],
+    "responses": ["If you notice signs or symptoms of mental health problem, see your primary care provider or a mental health professional."]
+    }
   ]
 }
