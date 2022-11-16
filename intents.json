@@ -328,7 +328,7 @@
         "responses": ["We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."]
     },
     {"tag": "fact-26",
-        "patterns": ["Are there cures for mental health problems?", "is there any cure for mental health problems?"],
+        "patterns": ["Are there cures for mental health problems?", "Is there any cure for mental health problems?"],
         "responses": ["It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."]
     },
     {"tag": "fact-27",
