@@ -100,6 +100,14 @@
         "patterns": ["I feel so anxious.", "I'm so anxious because of "],
         "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
     },
+    {"tag": "trauma",
+        "patterns": ["I keep thinking about my past", "I'm anxious because of my trauma", "I keep recalling bad memories", "I can't overcome my phobia", "It's hard to erase this trauma of mine", "I suffered a lot from my upsetting dreams and nightmares.", "I keep experiencing intrusive thoughts about events that may occur out of nowhere."],
+        "responses": ["Talk to someone whom you really trust, especially if you feel overwhelmed by your emotions, and let them know how they can help you.", "I know this is a tough situation for you but we'll get through this together.", "I may not experiencing what you are feeling right now but you you didn't deserve that, and you deserve support now.", "Each of us must address our own fears and meet them front on. How we deal with our fears will decide where we end up in life. To live an adventure or to be confined by fear of it.", "Fear keeps us focused on the past or concerned about the future; if we can address our fear, we will understand that we are OK right now."]
+    },
+    {"tag": "school", 
+        "patterns": ["I'm afraid that I might fail in my exam", "I'm scared because I'm not used to join in contests", "I had stage fright whenever I go in front of the audience", "I can't do this, I don't want to perform in the stage", "I don't know if I can get high score in my quiz", "I'm not confident in myself if I can pass in my exam", "I feel nervous about my score in my quiz"],
+        "responses": ["Believe in yourself! You can do this!", "Be confident. A better world may be built by realizing one's own potential and having faith in one's own capabilities.", "Trust yourself more, you know more than you think.", "Remember that you are braver than you believe, stronger than you seem, and brighter than you realize.", "Never give up on yourself because positivity, confidence, and persistence are important in life.", "Believe in yourself, don't allow anyone undermine your self-esteem.", "Face your fears."]
+    },
     {"tag": "not-talking",
         "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
         "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]
@@ -179,6 +187,12 @@
     {"tag": "no-approach",
         "patterns": ["I guess not. All I can think about are my exams.", "not really", "I guess not"],
         "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+    },
+    {"tag": "financial",
+        "patterns": [ "I'm afraid that I might ran out of money", "I can't stop worrying about my financial loss", "I'm sad that we don't have enough money", "I have credit card debt. I'm a failure at everything", "I lost my job. I'm going to be poor", "I have a debt", "My financial status right now is not that good"],
+        "responses": [ "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.", "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting.", "I know that all of us experienced financial loss or having a debt but one of the most important things we can do is develop a connection with money and an understanding of money that is more than simply a problem to be solved.",
+        "If you are having a financial problem, a financial planner can help you with this. It can jumpstart savings, even with a small amount of money.",
+        "In times when you feel overwhelmed, have a toolbox of strategies available, such as contacting a friend, going for a walk, or reading a book."]
     },
     {"tag": "diagnosis",
         "patterns": ["Can you diagnose my symptoms?", "I want to find out my symptoms"],
