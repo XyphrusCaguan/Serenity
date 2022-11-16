@@ -1,5 +1,4 @@
-{
-  "intents": [
+{"intents": [
     {"tag": "greeting",
         "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day", "It's been a while", "Howdy", "Hola", "Bonjour", "Konnichiwa"],
         "responses": ["Hello there. Tell me how are you feeling today", "Hi there. What can I do for you?", "Hi there. How are you feeling today?", "Hello there. Is there anything I can do for you?", "Hi. What brings you here today?", "Greetings! What can I do for you?", "Greetings! Is there anything that I can help?"]
