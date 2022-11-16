@@ -190,9 +190,11 @@
     },
     {"tag": "financial",
         "patterns": [ "I'm afraid that I might ran out of money", "I can't stop worrying about my financial loss", "I'm sad that we don't have enough money", "I have credit card debt. I'm a failure at everything", "I lost my job. I'm going to be poor", "I have a debt", "My financial status right now is not that good"],
-        "responses": [ "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.", "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting.", "I know that all of us experienced financial loss or having a debt but one of the most important things we can do is develop a connection with money and an understanding of money that is more than simply a problem to be solved.",
-        "If you are having a financial problem, a financial planner can help you with this. It can jumpstart savings, even with a small amount of money.",
-        "In times when you feel overwhelmed, have a toolbox of strategies available, such as contacting a friend, going for a walk, or reading a book."]
+        "responses": [ "If you are worrying about your financial, I suggest you seek help from others so that they can help with your financial problem.", "It is essential to set aside time to examine your finances so that you may tackle them in a safer, more focused setting.", "I know that all of us experienced financial loss or having a debt but one of the most important things we can do is develop a connection with money and an understanding of money that is more than simply a problem to be solved.", "If you are having a financial problem, a financial planner can help you with this. It can jumpstart savings, even with a small amount of money.", "In times when you feel overwhelmed, have a toolbox of strategies available, such as contacting a friend, going for a walk, or reading a book."]
+    },
+    {"tag": "family",
+        "patterns": [ "I'm afraid that my parents will be disappointed in me", "I feel nervous. My parents are surely disappointed", "I'm feeling anxious because of the disappointment from my parents"],
+        "responses": ["Try talking to them. If they are willing to listen, just tell them what you feel. I know that they will understand if you explain it well", "Don't be afraid, I know it's hard to speak up especially when confronting with your parents but try talking out to them so that they will know what you really feel."]
     },
     {"tag": "diagnosis",
         "patterns": ["Can you diagnose my symptoms?", "I want to find out my symptoms"],
