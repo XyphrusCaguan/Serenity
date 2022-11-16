@@ -1,117 +1,59 @@
-{
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "Is anyone there?",
-        "Hello",
-        "Good day",
-        "It's been a while"
-      ],
-      "responses": [
-        "Hello",
-        "Hi there. What can I do for you?",
-        "Hi there. How can I help you?",
-        "Hello there. Is there anything I can do for you?",
-        "Hi. What brings you in today?",
-        "Greetings! What can I do for you?",
-        "Greetings! Is there anything that I can help?"
-      ]
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day", "It's been a while", "Howdy", "Hola", "Bonjour", "Konnichiwa"],
+        "responses": ["Hello there. Tell me how are you feeling today", "Hi there. What can I do for you?", "Hi there. How are you feeling today?", "Hello there. Is there anything I can do for you?", "Hi. What brings you here today?", "Greetings! What can I do for you?", "Greetings! Is there anything that I can help?"]
     },
-    {
-      "tag": "morning greeting",
-      "patterns": [
-        "Good Morning",
-        "Morning"
-      ],
-      "responses": [
-        "Good Morning",
-        "Morning to you too"
-      ]
+    {"tag": "morning",
+        "patterns": ["Good Morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today?"]
     },
-    {
-      "tag": "afternoon greeting",
-      "patterns": [
-        "Good Afternoon",
-        "Afternoon"
-      ],
-      "responses": [
-        "Good Afternoon"
-      ]
+    {"tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
     },
-    {
-      "tag": "thanks",
-      "patterns": [
-        "Thanks", 
-        "Thank you", 
-        "That's helpful", 
-        "Thank's a lot!", 
-        "Thank you so much", 
-        "Really appreciate your help"
-      ],
-      "responses": [
-        "Happy to help!", 
-        "Any time!",
-        "My pleasure",
-        "You're welcome", 
-        "I'm glad that I can be of service to you"
-      ]
+    {"tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
     },
-    {
-      "tag": "name",
-      "patterns": [
-        "What is your name?",
-        "Your name?",
-        "Tell me your name"
-      ],
-      "responses": [
-        "I am Serenity",
-        "My name is Serenity"
-      ]
+    {"tag": "night",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep.","Good night. Sweet dreams."]
     },
-    {
-      "tag": "sleep",
-      "patterns": [
-        "I can't sleep",
-        "I'm not sleeping enough",
-        "I think I have insomnia",
-        "I had trouble sleeping at night"
-      ],
-      "responses": [
-        "Sleeping is essential to a healthier lifestyle.",
-        "You need to sleep to have a better productivity in your daily activities.",
-        "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.",
-        "If you can't sleep, try to sip some warm milk.",
-        "I suggest you try some nightime yoga."
-      ]
+    {"tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "Ok bye", "Bye then", "Fare thee well"],
+        "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
     },
-    {
-      "tag": "study",
-      "patterns": [
-        "I can't focused on my studies",
-        "I can't study very well",
-        "Any tips on how to focused on your studies?"
-      ],
-      "responses": [
-        "Take short breaks regularly. It can help you improve your focus and concentration",
-        "Pick the right time to study where you are most comfortable with.",
-        "Identify and minimize physical and digital distractions.",
-        "Have a good night's sleep.",
-        "Train you brain to improve your focus"
-      ]
+    {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Thank you so much", "Really appreciate your help", "Thank you very much"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're welcome", "I'm glad that I can be of service to you", "You're most welcome!"]
     },
-    {
-      "tag": "sleeping exchange",
-      "patterns": [
-        "Good Night",
-        "Night"
-      ],
-      "responses": [
-        "Good Night",
-        "Have a good night sleep"
-      ]
+    {"tag": "no-response",
+        "patterns": [""],
+        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+    },
+    {"tag": "neutral-response",
+        "patterns": ["Nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?", "Oh. Is there anything that you want to talk about?"]
+    },
+    {"tag": "about",
+        "patterns": ["What is your name?", "Your name?", "Tell me your name", "Who are you?", "Tell me more about yourself", "What are you?"],
+        "responses": ["I am Serenity, your Personal Chatbot Assistant. How are you feeling today?", "My name is Serenity, a Chatbot Assistant designed to assist you. Tell me about yourself.", "I'm Serenity!", "You can call me Sernity.", "My name is Sernity."]
+    },
+    {"tag": "about",
+        "patterns": ["What is your name?", "Your name?", "Tell me your name", "Who are you?", "Tell me more about yourself", "What are you?"],
+        "responses": ["I am Serenity, your Personal Chatbot Assistant. How are you feeling today?", "My name is Serenity, a Chatbot Assistant designed to assist you. Tell me about yourself.", "I'm Serenity!", "You can call me Sernity.", "My name is Serenity."]
+    },
+    {"tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can provide general advice regarding common stress related problems, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
+    },
+    {"tag": "sleep",
+        "patterns": ["I can't sleep", "I'm not sleeping enough", "I think I have insomnia", "I had trouble sleeping at night"],
+        "responses": ["Sleeping is essential to a healthier lifestyle.", "You need to sleep to have a better productivity in your daily activities.", "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.", "If you can't sleep, try to sip some warm milk.", "I suggest you try some nightime yoga."]
+    },
+    {"tag": "study",
+        "patterns": ["I can't focused on my studies", "I can't study very well", "Any tips on how to focused on your studies?"],
+        "responses": ["Take short breaks regularly. It can help you improve your focus and concentration.", "Pick the right time to study where you are most comfortable with.", "Identify and minimize physical and digital distractions.", "Have a good night's sleep first in order to rest your mind well.", "Train you brain to improve your focus."]
     },
     {
       "tag": "funny",
