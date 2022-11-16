@@ -47,96 +47,83 @@
         "patterns": ["What can you do?"],
         "responses": ["I can provide general advice regarding common stress related problems, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
     },
+    {"tag": "creation",
+        "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+        "responses": ["I was created by my developers: Gene Caleb Carbonilla, Xyprus Von Keith Caguan, Joshreen Reyes, and Jirah Kate Solano", "I was trained on a text dataset using Machine Learning & Natural Language Processing"]
+    },
+    {"tag": "name",
+        "patterns": ["My name is ", "I am ", "I go by "],
+        "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+    },
+    {"tag": "help",
+        "patterns": ["Could you help me?", "Give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+        "responses": ["Sure. Tell me how can I assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
     {"tag": "sleep",
-        "patterns": ["I can't sleep", "I'm not sleeping enough", "I think I have insomnia", "I had trouble sleeping at night"],
+        "patterns": ["I can't sleep", "I'm not sleeping enough", "I think I have insomnia", "I had trouble sleeping at night", "I am suffering from insomnia", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
         "responses": ["Sleeping is essential to a healthier lifestyle.", "You need to sleep to have a better productivity in your daily activities.", "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.", "If you can't sleep, try to sip some warm milk.", "I suggest you try some nightime yoga."]
     },
     {"tag": "study",
         "patterns": ["I can't focused on my studies", "I can't study very well", "Any tips on how to focused on your studies?"],
         "responses": ["Take short breaks regularly. It can help you improve your focus and concentration.", "Pick the right time to study where you are most comfortable with.", "Identify and minimize physical and digital distractions.", "Have a good night's sleep first in order to rest your mind well.", "Train you brain to improve your focus."]
     },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
+    {"tag": "funny",
+        "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
+        "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.", "What did the buffalo say when his son left for college? Bison."]
     },
-    {
-      "tag": "stress",
-      "patterns": [
-        "I'm stressed",
-        ""
-      ],
-      "responses":[
-        ""
-      ]
+    {"tag": "stressed",
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"]
     },
-    {
-      "tag": "bully",
-      "patterns": [
-        "I am being bullied.",
-        "I'm a victim of bullying.",
-        "Do you have any advice on how to stop bullying?",
-        "How to stop bullying?",
-        "I can't take being bullied anymore.",
-        "Someone is bullying me.",
-        "I hate it when someone is bullying me.",
-        "Out of nowhere he/she is bullying me."
-      ],
-      "responses": [
-        "You might want to talk about it to your parents or your teacher as soon as possible.",
-        "Seek counseling, especially to someone you trust the most.",
-        "If you feel unsafe, always find help.",
-        "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.",
-        "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.",
-        "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."
-      ]
+    {"tag": "sad",
+        "patterns": ["I am feeling lonely", "I am so lonely", "I feel down", "I feel sad", "I am sad", "I feel so lonely", "I feel empty", "I don't have anyone"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?", "I'm here for you. Could you tell me why you're feeling this way?", "Why do you think you feel this way?", "How long have you been feeling this way?"]
     },
-    {
-      "tag": "cyberbully",
-      "patterns": [
-        "Someone is harassing me through the Internet",
-        "I'm receiving hate comments on the Internet",
-        "I hate it when someone is gossiping about me",
-        "People are being rude to me in social media",
-        "Someone insulted me in their post",
-        "Out of nowhere he/she posted a bad comment about me",
-        "If someone is harassing me throught the Internet what should I do?",
-        "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?",
-        "Someone is spreading gossip or rumors about me. What should I do?"
-      ],
-      "responses": [
-        "I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.",
-        "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.",
-        "Talk to someone that you want to share with your problem.",
-        "Report bullying where it happens.",
-        "Reach out for help especially if the behavior's really getting to you.",
-        "I encourage you to limit your use of Internet or social media in order to avoid further conflict."
-      ]
+    {"tag": "worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.", "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."]
     },
-    {
-      "tag": "argue",
-      "patterns": [
-        "What should I do if I had an argument with someone?",
-        "I had an argument",
-        "I got into an argument with someone",
-        "Me and my friend had an argument",
-        "He/she argues with me"
-      ],
-      "responses": [
-        "You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.",
-        "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ",
-        "Cool off for the time being to avoid further conflicts.",
-        "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.",
-        "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."
-      ]
+    {"tag": "depressed",
+        "patterns": ["I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."]
     },
+    {"tag": "happy",
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+    },
+    {"tag": "casual",
+        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really", "Hmm", "I dunno"],
+        "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling these past few days", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?"]
+    },
+    {"tag": "anxious",
+        "patterns": ["I feel so anxious.", "I'm so anxious because of "],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
+    },
+    {"tag": "not-talking",
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]
+    },
+    {"tag": "scared",
+        "patterns": ["I'm scared", "That sounds awful. What do I do?", "No I don't want to feel this way", "I am scared for myself"],
+        "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
+    },
+    {"tag": "death",
+        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
+    },
+    {"tag": "understand",
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what I'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
+    },
+    {"tag": "done",
+        "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all I have to say", "No, that would be all"],
+        "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {"tag": "argue",
+        "patterns": ["What should I do if I had an argument with someone?", "I had an argument", "I got into an argument with someone", "Me and my friend had an argument", "He/she argues with me"],
+        "responses": ["You should calm down first and take a time out. People can't think clearly when they're highly emotional. And once you've cool off, talk to him/her again.", "First thing you need to do is took a deep breath and try to apologize to him/her if you're ready to talk again. Explain your side in a calm manner. ", "Cool off for the time being to avoid further conflicts.", "Be conscious of your own emotional reaction and give yourself time to think and feel before talking.", "Consider expressing your feelings. It's essential that you don't blame someone for your feelings. Instead, explain what is bothering you about the situation."]
+    },
+    
     {
       "tag": "suicide",
       "patterns": [
