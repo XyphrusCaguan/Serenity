@@ -63,6 +63,10 @@
         "patterns": ["I can't sleep", "I'm not sleeping enough", "I think I have insomnia", "I had trouble sleeping at night", "I am suffering from insomnia", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
         "responses": ["Sleeping is essential to a healthier lifestyle.", "You need to sleep to have a better productivity in your daily activities.", "Sleep is a must because it allows your body and mind to recharge, leaving you refreshed and alert when you wake up.", "If you can't sleep, try to sip some warm milk.", "I suggest you try some nightime yoga."]
     },
+    {"tag": "appetite",
+        "patterns": ["My appetite is not good", "I can't eat well", "I don't want to eat", "I had trouble eating", "I have a loss of appetite", "I don't have the energy to eat"],
+        "responses": ["You need to eat something because it can affect not only you physical health but also mental health."]
+    },
     {"tag": "study",
         "patterns": ["I can't focused on my studies", "I can't study very well", "Any tips on how to focused on your studies?"],
         "responses": ["Take short breaks regularly. It can help you improve your focus and concentration.", "Pick the right time to study where you are most comfortable with.", "Identify and minimize physical and digital distractions.", "Have a good night's sleep first in order to rest your mind well.", "Train you brain to improve your focus."]
