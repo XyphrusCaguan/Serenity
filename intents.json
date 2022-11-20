@@ -39,9 +39,9 @@
         "patterns": ["What is your name?", "Your name?", "Tell me your name", "Who are you?", "Tell me more about yourself", "What are you?"],
         "responses": ["I am Serenity, your Personal Chatbot Assistant. How are you feeling today?", "My name is Serenity, a Chatbot Assistant designed to assist you. Tell me about yourself.", "I'm Serenity!", "You can call me Sernity.", "My name is Sernity."]
     },
-    {"tag": "about",
-        "patterns": ["What is your name?", "Your name?", "Tell me your name", "Who are you?", "Tell me more about yourself", "What are you?"],
-        "responses": ["I am Serenity, your Personal Chatbot Assistant. How are you feeling today?", "My name is Serenity, a Chatbot Assistant designed to assist you. Tell me about yourself.", "I'm Serenity!", "You can call me Sernity.", "My name is Serenity."]
+    {"tag": "mixed-feelings",
+        "patterns": ["I am feeling down", "I feel lonely", "I feel ", "I'm feeling "],
+        "responses": ["Why? What kind of circumstances that triggers you?", "Why are you feeling this way?"]
     },
     {"tag": "skill",
         "patterns": ["What can you do?"],
@@ -52,7 +52,7 @@
         "responses": ["I was created by my developers: Gene Caleb Carbonilla, Xyprus Von Keith Caguan, Joshreen Reyes, and Jirah Kate Solano", "I was trained on a text dataset using Machine Learning & Natural Language Processing"]
     },
     {"tag": "name",
-        "patterns": ["My name is ", "I am ", "I go by "],
+        "patterns": ["My name is ", "I am ", "I go by ", "I'm "],
         "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
     },
     {"tag": "help",
@@ -89,7 +89,7 @@
     },
     {"tag": "happy",
         "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
-        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+        "responses": ["That's great to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
     },
     {"tag": "casual",
         "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really", "Hmm", "I dunno"],
@@ -134,6 +134,18 @@
     {"tag": "suicide",
         "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide", "I'm having suicidal thoughts", "I want to be gone forever", "I'm considering suicide", "My life is not worth it", "There's no point in living anymore"],
         "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 0966-351-4518."]
+    },
+    {"tag": "concentration",
+        "patterns": ["I want to improve my concentration", "I can't concentrate well. What should I do?", "Can't concentrate"],
+        "responses": ["I suggest you to practice mindfulness and meditation.", "Get more sleep", "Take a short break while you can.", "Train you brain so that you can develop ypur working and short-term memory, as well as your processing and problem-solving skills.", "Try listening to classical music and nature sounds since these could help ypur concentration."]
+    },
+    {"tag": "schedule",
+        "patterns": ["My sleeping schedule is a wreck", "My sleeping schedule ", "My body clock is destroyed"],
+        "responses": ["Practice relaxation since it might help you sleep better", "Get regular exercise.", "Get right with the light.", "Avoid noise. A quite sleeping environment is a must for good night's rest"]
+    },
+    {"tag": "medicine",
+        "patterns": ["Should I take medicine?", "What kind of medicine should I take?", "Is it ok to take medicine?"],
+        "responses": ["As much as possible do not depend too much on medication but try alternative ways in coping your mental health problems","Sorry, I can't answer that because I am not a doctor but a chatbot assistant. So I prefer you to go to the doctor to find out if you should take medicine or not."]
     },
     {"tag": "health",
         "patterns": ["I am worrying about my health", "I may be seriously ill", "I'm afraid that I might have an illness", "The condition of my health is not good"],
@@ -182,6 +194,14 @@
     {"tag": "ask",
         "patterns": ["Can I ask you something?"],
         "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you."]
+    },
+    {"tag": "bully",
+        "patterns": ["I am being bullied.", "I'm a victim of bullying.", "Do you have any advice on how to stop bullying?", "How to stop bullying?", "I can't take being bullied anymore.", "Someone is bullying me.", "I hate it when someone is bullying me.", "Out of nowhere he/she is bullying me."],
+        "responses": ["You might want to talk about it to your parents or your teacher as soon as possible.", "Seek counseling, especially to someone you trust the most.", "If you feel unsafe, always find help.", "Try to be calm and tell him/her to stop in still, clear voice. Brush it off with humor. This works best if joking is easy for you. It could catch the kid bullying you off guard.", "Speak up, but if speaking up seems too hard or not safe, walk away and stay away. Don't fight back.", "Assert yourself. Tell the bullies that what they've been doing isn't funny and has been hurting you in firm and collected manner. Then kindly warn them not to do it again."]
+    },
+    {"tag": "cyber-bully",
+        "patterns": ["Someone is harassing me through the Internet", "I'm receiving hate comments on the Internet", "I hate it when someone is gossiping about me", "People are being rude to me in social media", "Someone insulted me in their post", "Out of nowhere he/she posted a bad comment about me", "If someone is harassing me throught the Internet what should I do?", "Can you give me an advice on how to stop someone from bullying through the use of Internet/social media?","Someone is spreading gossip or rumors about me. What should I do?"],
+        "responses": ["I suggest you unfriend him/her or you might wanna block him/her if you don't want to see what they post.", "You might wanna take screenshots of harassment of what they did to you and report it to the authorities.", "Talk to someone that you want to share with your problem.", "Report bullying where it happens.", "Reach out for help especially if the behavior's really getting to you.", "I encourage you to limit your use of Internet or social media in order to avoid further conflict."]
     },
     {"tag": "no-approach",
         "patterns": ["I guess not. All I can think about are my exams.", "not really", "I guess not"],
@@ -360,12 +380,12 @@
         "responses": ["Both psychiatrist and psychologist can provide psychotherapy. However, most psyciatrists treat patients by prescribing medication, whereas psychologits usually provide talk and/or behavioral therapy."]
     },
     {"tag": "fact-34",
-    "patterns": ["Should I see a psychologist or psychiatrist first?"],
-    "responses": ["It doesn't matter who to seek first especially if you are struggling with your mental health. Seeking help is an important step toward living a full and meaningful life. The good news is that experienced mental health professionals have the necessary knowledge and skills to help clients in making an informed decision about the path of their treatment."]
+        "patterns": ["Should I see a psychologist or psychiatrist first?"],
+        "responses": ["It doesn't matter who to seek first especially if you are struggling with your mental health. Seeking help is an important step toward living a full and meaningful life. The good news is that experienced mental health professionals have the necessary knowledge and skills to help clients in making an informed decision about the path of their treatment."]
     },
     {"tag": "fact-35",
-    "patterns": ["What should I do if I had mental health problem?"],
-    "responses": ["If you notice signs or symptoms of mental health problem, see your primary care provider or a mental health professional."]
+        "patterns": ["What should I do if I had mental health problem?"],
+        "responses": ["If you notice signs or symptoms of mental health problem, see your primary care provider or a mental health professional."]
     }
   ]
 }
